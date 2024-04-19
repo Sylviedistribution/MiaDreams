@@ -28,9 +28,9 @@
 
                         <p
                             class="pb-opacity-3 text-center  py-4 d-flex flex-column gap-3 opacity-75 text-white position-absolute">
-                            <span class="">Demander</span>
-                            <span class="">Votre</span>
-                            <span class="">BILAN D'IMAGE</span>
+                            <span class="fw-bold fs-5">Demander</span>
+                            <span class="fw-bold fs-2 fst-italic">Votre</span>
+                            <span class="text-uppercase fw-bold fs-5">BILAN D'IMAGE</span>
                         </p>
                     </div>
                     <div class="col-md-1"></div>
@@ -38,9 +38,9 @@
                         <img src={{ asset('img/SHOP8.jpg') }} alt="" class="bg-img-2">
                         <p
                             class="pb-opacity-2 text-center  py-4 d-flex flex-column gap-3 opacity-75 text-white position-absolute">
-                            <span class="">Retrouver votre AUTHENTICITE</span>
-                            <span class="">Elaborer</span>
-                            <span class=" text-uppercase">votre garde-robe stratégique</span>
+                            <span class="fw-bold fs-5">Retrouver votre AUTHENTICITE</span>
+                            <span class="fw-bold fs-2 fst-itali">Elaborer</span>
+                            <span class=" text-uppercase fw-bold fs-5">votre garde-robe stratégique</span>
                         </p>
 
                     </div>
@@ -54,9 +54,9 @@
                 <img src={{ asset('img/4e7af837-a1ef-405e-8a13-9e0bf855af23.jfif') }} alt="" class="bg-img-1">
                 <p
                     class="pb-opacity-1 text-center  py-4 d-flex flex-column gap-3 opacity-75 text-white position-absolute">
-                    <span class="">Offrez-vous </span>
-                    <span class="">Votre</span>
-                    <span class="text-uppercase">Brand plateform</span>
+                    <span class=" fw-bold fs-5">Offrez-vous </span>
+                    <span class=" fw-bold fs-2 fst-italic">Votre</span>
+                    <span class="text-uppercase fw-bold fs-5">Brand plateform</span>
                 </p>
 
 

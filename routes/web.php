@@ -19,7 +19,7 @@ Route::get('/', function () {
 
 Route::get('/index', function () {
     return view('index');
-})->name('index');;
+})->name('index');
 
 
 //Nos marques

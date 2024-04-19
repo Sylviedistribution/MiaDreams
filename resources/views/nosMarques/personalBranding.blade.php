@@ -33,6 +33,7 @@
                             <span class="">BILAN D'IMAGE</span>
                         </p>
                     </div>
+                    <div class="col-md-1"></div>
                     <div class="col-5 text-center position-relative">
                         <img src={{ asset('img/SHOP8.jpg') }} alt="" class="bg-img-2">
                         <p
@@ -63,8 +64,8 @@
         </div>
 
         <div class="text-center  pb-4">
-                <button class="pb-btn p-1">TELECHARGER NOTRE BRONCHURE</button>
-            </div>
+            <button class="pb-btn p-1">TELECHARGER NOTRE BRONCHURE</button>
+        </div>
     </div>
 </section>
 <section>
@@ -97,6 +98,7 @@
                             TELECHARGER NOTRE CATALOGUE 2
                         </button>
                     </div>
+                    <div class="col-md-1"></div>
                     <div class="col-5 text-center position-relative">
                         <img src={{ asset('img/miadreams-catalogue-2.png') }} alt="" class="bg-img-6">
 

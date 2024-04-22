@@ -17,6 +17,4 @@ return [
     'alpha_num' => 'Le champ :attribute ne doit contenir que des lettres et des chiffres.',
     'date' => 'Le champ :attribute doit être une date valide.',
     'numeric' => 'Le champ :attribute ne doit contenir que des chiffres.',
-
-
     ];

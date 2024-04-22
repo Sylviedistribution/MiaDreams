@@ -2,8 +2,12 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\ConfirmationMail;
 use App\Models\Newsletter;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\Redirect;
+use Symfony\Component\HttpFoundation\RedirectResponse;
 
 class NewsletterController extends Controller
 {
@@ -12,15 +16,8 @@ class NewsletterController extends Controller
      */
     public function index()
     {
-        //
-    }
-
-    /**
-     * Show the form for creating a new resource.
-     */
-    public function create()
-    {
-        //
+        $listeEmail = Newsletter::all();
+        return view('newsletter.list', compact('listeEmail'));
     }
 
     /**
@@ -28,7 +25,25 @@ class NewsletterController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $request->validate([
+            'email' => 'required|email',
+        ]);
+        try {
+            // Enregistrer l'e-mail dans la base de données
+            $newsletter = Newsletter::create([
+                'email' => $request->email
+            ]);
+
+            // Envoyer l'e-mail de confirmation
+            Mail::to($request->email)->send(new ConfirmationMail());
+
+            // Rediriger vers la page index avec un message de succès
+            return view('index')->with('success', 'Votre inscription à la newsletter a bien été enregistrée.')->with('closeModal', true);
+        }
+        catch (\Exception $e) {
+            // En cas d'erreur, rediriger avec un message d'erreur
+            return redirect()->back()->with('error', 'Une erreur est survenue lors de votre inscription à la newsletter.');
+        }
     }
 
     /**

@@ -4,20 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Confirmation de création de compte</title>
+    <title>Inscription à la newsletter</title>
 </head>
 <body>
 <div>
-    <h2>Bonjour {{ $titulaireCompte }},</h2>
-    <p>Votre compte bancaire a été créé avec succès. Voici les détails :</p>
-    <ul>
-        <li>Code banque: {{ $codeBanque }}</li>
-        <li>Code guichet: {{ $codeGuichet }}</li>
-        <li>Numéro de compte: {{ $numeroCompte }}</li>
-        <li>Clé RIB: {{ $cleRib }}</li>
-        <li>IBAN: {{ $iban }}</li>
-        <li>Solde initial: {{ $solde }} FCFA</li>
-    </ul>
+    <h2>Bonjour</h2>
+    <p>Votre adresse mail a bien été enregistrée.</p>
+    <p>Vous recevrez toutes nos prochaines informations!</p>
     <p>Merci de votre confiance!</p>
 </div>
 </body>

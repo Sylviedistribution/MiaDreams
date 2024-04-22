@@ -9,12 +9,12 @@ class DownloadController extends Controller
 {
     public function download($document)
     {
-        // Vérifier si le fichier existe
-        if (Storage::disk('local')->exists($document)) {
-            // Renvoyer le fichier en tant que téléchargement
-            return Storage::download($document);
+        // Vérifier si le fichier existe dans le répertoire de stockage public
+        if (Storage::disk('public')->exists($document)) {
+            // Télécharger le fichier
+            return Storage::disk('public')->download($document);
         } else {
-            // Si le fichier n'existe pas, rediriger l'utilisateur avec un message d'erreur
+            // Si le fichier n'existe pas, rediriger avec un message d'erreur
             return redirect()->back()->with('error', 'Le document demandé n\'existe pas.');
         }
     }

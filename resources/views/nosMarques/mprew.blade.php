@@ -1,19 +1,19 @@
 @include('layouts.header')
 
-<div class="mprew-container-1 animated fadeInDown">
-    <div class="date-annonce">
+<div class="container-fluid mprew-container-1 ">
+    <div class="position-absolute top-0  translate-middle text-end date-annonce">
         <p>CREATE</p>
         <p>FASHION</p>
         <p>TOGETHER</p>
     </div>
 </div>
-<div class="mprew-container-2 animated fadeInLeft">
+<div class="container mprew-container-2 ">
     <div class="video-presentation">
-        <iframe width="1200" height="450" src="https://www.youtube.com/embed/INho0oVn2Ao" frameborder="0"
+        <iframe width="1300" height="450" src="https://www.youtube.com/embed/INho0oVn2Ao" frameborder="0"
                 allowfullscreen></iframe>
     </div>
 </div>
-<div class="mprew-container-3 animated fadeInRight">
+<div class="container mprew-container-3 ">
     <p>
         Ma petite robe en wax est la première application mobile de cocréation entre la cliente et son artisan, qui
         permet de créer et de personnaliser sa robe en quelques clics.

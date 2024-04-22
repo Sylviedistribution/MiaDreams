@@ -13,29 +13,16 @@ class ConfirmationMail extends Mailable
 {
     use Queueable, SerializesModels;
 
-    public $titulaireCompte;
-    public $codeBanque;
-    public $codeGuichet;
-    public $numeroCompte;
-    public $cleRib;
-    public $iban;
-    public $solde;
-
-    public function __construct($numeroCompte, $codeBanque, $codeGuichet, $cleRib, $iban, $titulaireCompte, $solde)
+    public function __construct()
     {
-        $this->numeroCompte = $numeroCompte;
-        $this->codeBanque = $codeBanque;
-        $this->codeGuichet = $codeGuichet;
-        $this->cleRib = $cleRib;
-        $this->iban = $iban;
-        $this->titulaireCompte = $titulaireCompte;
-        $this->solde = $solde;
+
     }
 
     public function build()
     {
-        return $this->view('mails.confirmation');
-    }
+        return $this->from('votre_adresse@gmail.com')
+            ->subject('Confirmation de votre inscription')
+            ->view('emails.confirmation');    }
 
     /**
      * Get the message envelope.

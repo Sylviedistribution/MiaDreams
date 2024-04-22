@@ -133,4 +133,4 @@
     <h1>Made In Africa</h1>
 </div>
 
-@include('layouts.footer')
+<!-- @include('layouts.footer') -->

@@ -22,6 +22,8 @@ Route::get('/index', function () {
 })->name('index');
 
 
+
+
 //Nos marques
 Route::get('/miaDreams', function () {
     return view('nosMarques.miaDreams');

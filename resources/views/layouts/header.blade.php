@@ -15,10 +15,17 @@
 </head>
 
 <body>
-    <section id="nav-bar navbar-dark bg-dark">
+    <section id="">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
-                <div class="collapse navbar-collapse" id="navbarNav">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                   
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mx-auto fw-bold">
                         <li class="ligne nav-item  mx-4">
                             <a class="nav-link active" aria-current="page" href={{ route('index') }}>HOME</a>
@@ -37,7 +44,7 @@
                             </ul>
 
                         </li>
-                        <li class="nav-item d-none d-sm-block">
+                        <li class="nav-item d-none d-md-none d-lg-block">
                             <a class="nav-link img-layout" href={{ route('index') }}>
                                 <img src="{{ asset('img/logo_MIA.png') }}" class="logo img-fluid " alt="logo">
                             </a>
@@ -62,8 +69,6 @@
             </div>
         </nav>
     </section>
-
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>

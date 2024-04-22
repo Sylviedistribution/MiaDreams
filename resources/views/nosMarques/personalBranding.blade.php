@@ -23,7 +23,7 @@
 
                 </p>
                 <div class="row">
-                    <div class="col-md-5 text-center position-relative">
+                    <div class="col-md-6 text-center position-relative">
                         <img src={{ asset('img/pb-rounded-1.jpg') }} alt="" class="bg-img-3">
 
                         <p
@@ -33,8 +33,8 @@
                             <span class="text-uppercase fw-bold fs-5">BILAN D'IMAGE</span>
                         </p>
                     </div>
-                    <div class="col-md-1"></div>
-                    <div class="col-5 text-center position-relative">
+
+                    <div class="col-md-6 text-center position-relative">
                         <img src={{ asset('img/SHOP8.jpg') }} alt="" class="bg-img-2">
                         <p
                             class="pb-opacity-2 text-center  py-4 d-flex flex-column gap-3 opacity-75 text-white position-absolute">
@@ -91,15 +91,15 @@
                     accompagné de petits articles, de citations, de conseils et astuces bien-être.
                 </p>
                 <div class="row">
-                    <div class="col-md-5 text-center position-relative">
+                    <div class="col-md-6 text-center position-relative">
                         <img src={{ asset('img/mia-dreams.png') }} alt="" class="bg-img-5">
 
                         <button class="btn-bronchure-2 opacity-75  text-white position-absolute">
                             TELECHARGER NOTRE CATALOGUE 2
                         </button>
                     </div>
-                    <div class="col-md-1"></div>
-                    <div class="col-5 text-center position-relative">
+
+                    <div class="col-md-6 text-center position-relative">
                         <img src={{ asset('img/miadreams-catalogue-2.png') }} alt="" class="bg-img-6">
 
                         <button class="btn-bronchure-1 opacity-75  text-white position-absolute">
@@ -115,3 +115,4 @@
 </section>
 
 @include('layouts.footer')
+ 

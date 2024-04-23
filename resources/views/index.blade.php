@@ -59,45 +59,71 @@
 </section>
 
 <!-- Section "Découvrez nos produits" -->
-{{-- <section>
-<div class="container home-container-4">
-
-    <div class="image-container black">
-        <img id="home-image2" src="{{asset("img/home-image2.jpg")}}" alt="">
-        <div class="image-text">
-            <h5>DECOUVREZ</h5>
-            <p>Mia Dreams Brand</p>
+<section>
+    <div class="container">
+        <div class="row  py-5">
+            <div class="col-md-4 py-5 position-relative">
+                <div class="container-black  position-absolute"></div>
+                <img id="home-image2" src="{{ asset('img/home-image2.jpg') }}" alt="">
+                <div class="image-text position-absolute">
+                    <h5>DECOUVREZ</h5>
+                    <p>Mia Dreams Brand</p>
+                </div>
+                <p class="description">Notre ligne de vêtements</p>
+            </div>
+            <div class="col-md-4 py-5 position-relative">
+                <div class="container-brow  position-absolute"></div>
+                <img id="home-image3" src="{{ asset('img/home-image3.jpg') }}" alt="">
+                <div class="image-text-1 position-absolute">
+                    <h5>DECOUVREZ</h5>
+                    <p>Ma Petite Robe En Wa</p>
+                </div>
+                <p class="description">Notre application mobile</p>
+            </div>
+            <div class="col-md-4 py-5 position-relative">
+                <div class="container-red  position-absolute"></div>
+                <img id="home-image4" src="{{ asset('img/home-image4.jpg') }}" alt="">
+                <div class="image-text position-absolute">
+                    <h5>DECOUVREZ</h5>
+                    <p>Fashion Program</p>
+                </div>
+                <p class="description"> Notre programme de formation</p>
+            </div>
         </div>
-        <p class="description">Notre ligne de vêtements</p>
     </div>
-    <div class="image-container-2 brown">
-        <img id="home-image3" src="{{asset("img/home-image3.jpg")}}" alt="">
-        <div class="image-text">
-            <h5>DECOUVREZ</h5>
-            <p>Ma Petite Robe En Wax</p>
-        </div>
-        <p class="description">Notre application mobile</p>
-    </div>
-    <div class="image-container red">
-        <img id="home-image4" src="{{asset("img/home-image4.jpg")}}" alt="">
-        <div class="image-text">
-            <h5>DECOUVREZ</h5>
-            <p>Fashion Program</p>
-        </div>
-        <p class="description"> Notre programme de formation</p>
-    </div>
-</div>
-</section> --}}
+</section>
 
 <!-- Section "Nouvelle offre en Personal Branding" -->
-{{-- <div class="container home-container-5">
-    <!-- Image de l'offre -->
-    <div>
-        <div class="image-container-fashion ">
-            <img id="home-image5" src="{{asset("img/home-image5.jpg")}}"  alt="">
+<section>
+    <div class="container">
+        <div class="row py-4">
+            <div class="col-md-6  position-relative">
+                <img id="home-image2 object-fit-md-contain img-fluid img-thumbnail"
+                    src="{{ asset('img/home-image5.jpg') }}" alt="">
+            </div>
+            <div class="col-md-6  pt-4">
+                <div class="ofr-index">
+                    <p>
+                        <strong>NOUVEAU</strong><br>
+                        OFFRE EN PERSONAL
+                        BRANDING
+                    </p>
+                </div> 
+                 <div class="paragraphe pt-4">
+                    <p> Une méthode et un accompagnement uniques au service de votre leadership, qui vous
+                        font
+                        gagner du temps. Nous
+                        allons vous aider à développer votre propre style, dans une démarche bienveillante. Notre approche
+                        structurée et ultra-professionnelle vous permettra de constituer un dressing digne de la Haute
+                        Couture.</p>
+                </div>
+                <div class="">
+                    <a class="btn" href="{{ route('personalBranding') }}">DÉCOUVREZ NOTRE BROCHURE</a>
+                </div>
+            </div>
         </div>
-    </div>
-    <div class="section-text ">
+
+        {{-- <div class="section-text ">
         <div class="titre1">
             <p>
                 <strong>NOUVEAU</strong><br>
@@ -117,8 +143,10 @@
         <br>
         <!-- Bouton pour découvrir la brochure -->
         <a class="btn" href="{{ route('personalBranding') }}">DÉCOUVREZ NOTRE BROCHURE</a>
+    </div> --}}
+
     </div>
-</div> --}}
+</section>
 
 <!-- Section "ETHICAL FASHION" -->
 {{-- <div class="container home-container-6">

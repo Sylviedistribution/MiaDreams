@@ -55,7 +55,7 @@
                                 JOURNAL
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li class=""><a class="dropdown-item" href="{{ route('aPropos') }}">A PROPOS</a>
+                                <li class=""><a class="dropdown-item" href="{{ route('apropos') }}">A PROPOS</a>
                                 </li>
                                 <li><a class="dropdown-item" href="">BLOG</a></li>
                             </ul>

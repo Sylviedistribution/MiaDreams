@@ -35,13 +35,18 @@
                     </div>
 
                     <div class="col-md-6 text-center position-relative">
+<<<<<<< HEAD
                         <img src={{ asset('img/SHOP8.jpg') }} alt="" class="bg-img-2">
+=======
+                        <img src={{ asset('img/SHOP8.jpg') }} alt="" class="bg-img-2" alt="">
+>>>>>>> 26e5a5ad8aafadbb2cd6893c12681876286f66fc
                         <p
                             class="pb-opacity-2 text-center  py-4 d-flex flex-column gap-3 opacity-75 text-white position-absolute">
                             <span class="fw-bold fs-5">Retrouver votre AUTHENTICITE</span>
                             <span class="fw-bold fs-2 fst-itali">Elaborer</span>
                             <span class=" text-uppercase fw-bold fs-5">votre garde-robe stratégique</span>
                         </p>
+<<<<<<< HEAD
 
                     </div>
                 </div>
@@ -52,12 +57,24 @@
                     <img src={{ asset('img/logo-miadreams-noir.png') }} alt="" class="img-fluid">
                 </div>
                 <img src={{ asset('img/4e7af837-a1ef-405e-8a13-9e0bf855af23.jfif') }} alt="" class="bg-img-1">
+=======
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 text-center position-relative">
+                <div class="align-middle d-flex ">
+                    <img src={{ asset('img/logo-miadreams-noir.png') }} alt="" class="img-fluid" alt="">
+                </div>
+                <img src={{ asset('img/4e7af837-a1ef-405e-8a13-9e0bf855af23.jfif') }} alt="" class="bg-img-1" alt="">
+>>>>>>> 26e5a5ad8aafadbb2cd6893c12681876286f66fc
                 <p
                     class="pb-opacity-1 text-center  py-4 d-flex flex-column gap-3 opacity-75 text-white position-absolute">
                     <span class=" fw-bold fs-5">Offrez-vous </span>
                     <span class=" fw-bold fs-2 fst-italic">Votre</span>
                     <span class="text-uppercase fw-bold fs-5">Brand plateform</span>
                 </p>
+<<<<<<< HEAD
 
 
             </div>
@@ -65,10 +82,21 @@
 
         <div class="text-center  pb-4">
             <button class="pb-btn p-1">TELECHARGER NOTRE BRONCHURE</button>
+=======
+            </div>
+        </div>
+
+        <div class="text-center pb-4">
+            <a class="pb-btn p-1"
+                    href="{{ route('download', ['document' => 'Offre_Personal_Branding_2024.pdf']) }}">TELECHARGER NOTRE
+                BROCHURE
+            </a>
+>>>>>>> 26e5a5ad8aafadbb2cd6893c12681876286f66fc
         </div>
     </div>
 </section>
 <section>
+<<<<<<< HEAD
     <div class="container-fluid bg-beige ">
         <div class="row  px-5 ">
             <div class="col-md-3 text-center position-relative">
@@ -80,6 +108,20 @@
                 <button class="btn-bronchure-3 text-center opacity-75  text-white position-absolute">
                     TELECHARGER NOTRE CATALOGUE 3
                 </button>
+=======
+    <div class=" container-fluid bg-beige">
+        <div class="row  px-5 ">
+            <div class="col-md-3 text-center position-relative">
+                <div class="align-middle">
+                    <img src={{ asset('img/logo-miadreams-noir.png') }} alt="" class="img-fluid" alt="">
+                </div>
+                <img src={{ asset('img/mia-dreams-catalogue.png') }} alt="" class="bg-img-4" alt="">
+
+                <a class="btn-bronchure-3 text-center opacity-75  text-white position-absolute"
+                   href="{{ route('download', ['document' => 'Catalogue_Personal_Branding_&_Etiquette_3.pdf']) }}">
+                    TELECHARGER NOTRE CATALOGUE 3
+                </a>
+>>>>>>> 26e5a5ad8aafadbb2cd6893c12681876286f66fc
 
             </div>
             <div class="col-md-9">
@@ -92,6 +134,7 @@
                 </p>
                 <div class="row">
                     <div class="col-md-6 text-center position-relative">
+<<<<<<< HEAD
                         <img src={{ asset('img/mia-dreams.png') }} alt="" class="bg-img-5">
 
                         <button class="btn-bronchure-2 opacity-75  text-white position-absolute">
@@ -105,13 +148,33 @@
                         <button class="btn-bronchure-1 opacity-75  text-white position-absolute">
                             TELECHARGER NOTRE CATALOGUE 1
                         </button>
+=======
+                        <img src={{ asset('img/mia-dreams.png') }} alt="" class="bg-img-5" alt="">
+
+                        <a class="btn-bronchure opacity-75  text-white position-absolute"
+                           href="{{ route('download', ['document' => 'Catalogue_Personal_Branding_&_Etiquette_2.pdf'])}}">
+                            TELECHARGER NOTRE CATALOGUE 2
+                        </a>
+                    </div>
+
+                    <div class=" col-md-6 text-center position-relative">
+                        <img src={{ asset('img/miadreams-catalogue-2.png') }} alt="" class="bg-img-6" alt="">
+
+                        <a class="btn-bronchure opacity-75  text-white position-absolute"
+                           href="{{ route('download', ['document' => 'Catalogue_Personal_Branding_&_Etiquette_1.pdf']) }}">
+                            TELECHARGER NOTRE CATALOGUE 1
+                        </a>
+>>>>>>> 26e5a5ad8aafadbb2cd6893c12681876286f66fc
                     </div>
                 </div>
 
             </div>
         </div>
     </div>
+<<<<<<< HEAD
     </div>
+=======
+>>>>>>> 26e5a5ad8aafadbb2cd6893c12681876286f66fc
 </section>
 
 @include('layouts.footer')

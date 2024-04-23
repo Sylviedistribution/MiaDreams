@@ -49,19 +49,19 @@
             </div>
             <div class="col-md-2 pt-5">
                 <h3 class="fw-light fs-4">NOUS SUIVRE</h3>
-                <div class="d-flex flex-row text-center ps-3">
+                <div class="d-flex flex-row ps-3">
                     <img src={{ asset('img/facebook.png') }} alt="" class=" logo-sociaux img-fluid "
-                        alt="">
+                         alt="">
                     <img src={{ asset('img/instagram.png') }} alt="" class="logo-sociaux img-fluid "
-                        alt="">
+                         alt="">
                     <img src={{ asset('img/youtube.png') }} alt="" class="logo-sociaux img-fluid "
-                        alt="">
+                         alt="">
                 </div>
                 <div class="d-flex flex-row pb-2 ps-3">
                     <img src={{ asset('img/logo-linkedin.png') }} alt="" class="logo-sociaux img-fluid "
-                        alt="">
+                         alt="">
                     <img src={{ asset('img/twitter.png') }} alt="" class="logo-sociaux img-fluid "
-                        alt="">
+                         alt="">
                 </div>
             </div>
         </div>
@@ -80,7 +80,7 @@
             .addClass("animate__animated animate__fadeInDown");
     });
 </script>
-
 </body>
 
 </html>
+

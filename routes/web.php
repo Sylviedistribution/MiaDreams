@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\NewsletterController;
+use App\Http\Controllers\DownloadController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
 
 Route::get('/index', function () {
@@ -40,15 +42,29 @@ Route::get('/fashionProgram', function () {
 })->name('fashionProgram');
 
 
-
-
 //Journal
-Route::get('/aPropos', function () {
-    return view('aPropos');
-})->name('aPropos');
+Route::get('/apropos', function () {
+    return view('apropos');
+})->name('apropos');
 
 //Impact
 Route::get('/impact', function () {
     return view('impact');
 })->name('impact');
 
+// Newsletter
+
+//Route::post('newsletter','NewsletterController@store')->name('newsletter');
+Route::controller(NewsletterController::class)->group(function () {
+    Route::get('newsletter','index')->name('newsletter.list');
+    Route::get('newsletter/create', 'create')->name('newsletter.create');
+    Route::post('newsletter/store', 'store')->name('newsletter.store');
+    Route::get('newsletter/edit/{id}', 'edit')->name('newsletter.edit');
+    Route::post('newsletter/update/{carte}', 'update')->name('newsletter.update');
+    Route::get('newsletter/destroy/{id}', 'destroy')->name('newsletter.destroy');
+});
+
+//Telecharger documents
+Route::controller(DownloadController::class)->group(function () {
+    Route::get('/download/{document}', 'download')->name('download');
+});

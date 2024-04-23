@@ -44,9 +44,12 @@
     font-family: GlacialIndifference, serif;
 }
 .home-container-3 {
-    background-image: url('../img/robe2-removebg.png');
+    /* background-image: url('../img/robe2-removebg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     justify-content: center;
-    text-align: center;
+    text-align: center; */
     font-size: 40px;
     font-family: 'Aniyah', serif;
     opacity: 90%;

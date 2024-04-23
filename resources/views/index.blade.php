@@ -49,17 +49,18 @@
 </section>
 
 <!-- Section "Univers authentique" -->
+<section>
+    <div class="container py-3 home-container-3">
 
-<div class="container home-container-3">
-   <div class="Container-home px-5">
-    <p>Plus qu'une entreprise, un univers authentique aux
-        inspirations africaines et contemporaines.</p>
-   </div>
-</div>
+        <p>Plus qu'une entreprise, un univers authentique aux
+            inspirations africaines et contemporaines.</p>
 
+    </div>
+</section>
 
 <!-- Section "Découvrez nos produits" -->
-{{-- <div class="container home-container-4">
+{{-- <section>
+<div class="container home-container-4">
 
     <div class="image-container black">
         <img id="home-image2" src="{{asset("img/home-image2.jpg")}}" alt="">
@@ -85,7 +86,8 @@
         </div>
         <p class="description"> Notre programme de formation</p>
     </div>
-</div> --}}
+</div>
+</section> --}}
 
 <!-- Section "Nouvelle offre en Personal Branding" -->
 {{-- <div class="container home-container-5">

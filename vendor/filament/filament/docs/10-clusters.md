@@ -29,10 +29,10 @@ public function panel(Panel $panel): Panel
 }
 ```
 
-Now, you can create a cluster with the `php artisan make:filament:cluster` command:
+Now, you can create a cluster with the `php artisan make:filament-cluster` command:
 
 ```bash
-php artisan make:filament:cluster Settings
+php artisan make:filament-cluster Settings
 ```
 
 This will create a new cluster class in the `app/Filament/Clusters` directory:
@@ -64,7 +64,7 @@ protected static ?string $cluster = Settings::class;
 
 ## Code structure recommendations for panels using clusters
 
-When using clusters, it is recommended that you move all of your resources and pages into a directory with the same name as the cluster. For example, here is an directory structure for a panel that uses a cluster called `Settings`, containing a `ColorResource` and two custom pages:
+When using clusters, it is recommended that you move all of your resources and pages into a directory with the same name as the cluster. For example, here is a directory structure for a panel that uses a cluster called `Settings`, containing a `ColorResource` and two custom pages:
 
 ```
 .

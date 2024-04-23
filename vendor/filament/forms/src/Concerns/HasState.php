@@ -2,6 +2,7 @@
 
 namespace Filament\Forms\Concerns;
 
+use Closure;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Support\Arr;
 
@@ -68,14 +69,14 @@ trait HasState
      * @param  array<string, mixed>  $state
      * @return array<string, mixed>
      */
-    public function dehydrateState(array &$state = []): array
+    public function dehydrateState(array &$state = [], bool $isDehydrated = true): array
     {
-        foreach ($this->getComponents() as $component) {
-            if ($component->isHidden()) {
+        foreach ($this->getComponents(withHidden: true) as $component) {
+            if ($component->isHiddenAndNotDehydrated()) {
                 continue;
             }
 
-            $component->dehydrateState($state);
+            $component->dehydrateState($state, $isDehydrated);
         }
 
         return $state;
@@ -87,8 +88,8 @@ trait HasState
      */
     public function mutateDehydratedState(array &$state = []): array
     {
-        foreach ($this->getComponents() as $component) {
-            if ($component->isHidden()) {
+        foreach ($this->getComponents(withHidden: true) as $component) {
+            if ($component->isHiddenAndNotDehydrated()) {
                 continue;
             }
 
@@ -130,8 +131,8 @@ trait HasState
      */
     public function mutateStateForValidation(array &$state = []): array
     {
-        foreach ($this->getComponents() as $component) {
-            if ($component->isHidden()) {
+        foreach ($this->getComponents(withHidden: true) as $component) {
+            if ($component->isHiddenAndNotDehydrated()) {
                 continue;
             }
 
@@ -220,9 +221,11 @@ trait HasState
     /**
      * @return array<string, mixed>
      */
-    public function getState(bool $shouldCallHooksBefore = true): array
+    public function getState(bool $shouldCallHooksBefore = true, ?Closure $afterValidate = null): array
     {
         $state = $this->validate();
+
+        value($afterValidate);
 
         if ($shouldCallHooksBefore) {
             $this->callBeforeStateDehydrated();
@@ -252,18 +255,18 @@ trait HasState
      * @param  array<string>  $keys
      * @return array<string, mixed>
      */
-    public function getStateOnly(array $keys): array
+    public function getStateOnly(array $keys, bool $shouldCallHooksBefore = true): array
     {
-        return Arr::only($this->getState(), $keys);
+        return Arr::only($this->getState($shouldCallHooksBefore), $keys);
     }
 
     /**
      * @param  array<string>  $keys
      * @return array<string, mixed>
      */
-    public function getStateExcept(array $keys): array
+    public function getStateExcept(array $keys, bool $shouldCallHooksBefore = true): array
     {
-        return Arr::except($this->getState(), $keys);
+        return Arr::except($this->getState($shouldCallHooksBefore), $keys);
     }
 
     public function getStatePath(bool $isAbsolute = true): string

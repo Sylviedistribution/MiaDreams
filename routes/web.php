@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\FilamentController;
 use App\Http\Controllers\NewsletterController;
 use App\Http\Controllers\DownloadController;
 use Illuminate\Support\Facades\Route;
@@ -68,3 +69,6 @@ Route::controller(NewsletterController::class)->group(function () {
 Route::controller(DownloadController::class)->group(function () {
     Route::get('/download/{document}', 'download')->name('download');
 });
+
+//Partie admin Filament
+Route::get('admin', [FilamentController::class, 'index'])->name('filament.dashboard');

@@ -912,7 +912,7 @@ body, html {
     font-family: Glacial Indifference, serif;
 }
 
-.mprew-container-3 video, img {
+.mprew-container-3 video, .img-mprw {
     width: 240px;
     height: 300px;
     margin: 20px 0 20px 20px;
@@ -965,18 +965,6 @@ body, html {
 .fashionContainer-3 a {
     background-color: black;
 }
-
-<<<<<<< HEAD
-/* PERSONAL BRANDING */
-.pb-bg{
-    background-image:url('../img/pb-image1.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #603512;
-    background-position: center;
-    height: 700px;
-    color: white;
-=======
 .fashionContainer-4{
     background-image: url("../img/fashionProgram-image6.jpg");
     background-size: cover;
@@ -984,407 +972,48 @@ body, html {
     height: 800px; /* Hauteur minimale de votre conteneur */
     display: flex;
     justify-content: center; /* Centrer horizontalement */
-    margin-top: 30px;
->>>>>>> 26e5a5ad8aafadbb2cd6893c12681876286f66fc
-}
-.pb-bg h3{
-    padding-left: 200px;
-    padding-top: 500px;
-    text-wrap: 3px;
-    font-weight: bold;
-}
-.pb-text-fr{
-    color: #603512;
-}
-.bg-img-3{
-    width: 100%;
-    height: 70vh;
-
- }
-.pb-opacity-3{
-    background-color: #583d28;
-    top: 25%;
-    left: 13%;
-    width: 80%;
-    height: 40vh;
-    background-color: #481c14;
-    color: white;
-    font-size: 13px; 
-    font-weight: bold; 
-    text-align: center;
-    justify-content: center;
-
-<<<<<<< HEAD
-}
-=======
-.fashionContainer-4 h6{
-    background-color: #b8742c;
-    opacity: 0.7;
-    position: relative;
-    top: 20px;
-    font-family: Lastica, serif;
-    letter-spacing: 3px;
-    font-weight: bolder;
-    font-size: 20px;
-}
-
-/* PERSONAL BRANDING */
-.pb-bg{
-    background-image:url('../img/pb-image1.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #603512;
-    background-position: center;
-    height: 700px;
-    color: white;
-}
-.pb-bg h3{
-    padding-left: 200px;
-    padding-top: 500px;
-    font-weight: bold;
-}
-.pb-text-fr{
-    color: #603512;
-}
-.bg-img-3{
-    width: 100%;
-    height: 70vh;
-
-}
-.pb-opacity-3{
-    top: 25%;
-    left: 13%;
-    width: 80%;
-    height: 40vh;
-    background-color: #481c14;
-    color: white;
-    font-size: 13px;
-    font-weight: bold;
-    text-align: center;
-    justify-content: center;
-
-}
->>>>>>> 26e5a5ad8aafadbb2cd6893c12681876286f66fc
-.bg-img-2{
-    width: 100%;
-    height: 70vh;
-
-<<<<<<< HEAD
- }
- .pb-opacity-2{
-    background-color: #583d28;
-=======
-}
-.pb-opacity-2{
->>>>>>> 26e5a5ad8aafadbb2cd6893c12681876286f66fc
-    top: 35%;
-    left: 12%;
-    width: 80%;
-    height: 40vh;
-    background-color: #481c14;
-    color: white;
-<<<<<<< HEAD
-    font-size: 13px; 
-    font-weight: bold; 
-    text-align: center;
-    justify-content: center;
- }
- .align-middle{
-    justify-content: center;
- }
- .bg-img-1{
-    width: 100%;
-    height: 70vh;
- }
- .pb-opacity-1{
-    background-color: #583d28;
-=======
-    font-size: 13px;
-    font-weight: bold;
-    text-align: center;
-    justify-content: center;
-}
-.align-middle{
-    justify-content: center;
-}
-.bg-img-1{
-    width: 100%;
-    height: 70vh;
-}
-.pb-opacity-1{
->>>>>>> 26e5a5ad8aafadbb2cd6893c12681876286f66fc
-    top: 64%;
-    left: 20%;
-    width: 70%;
-    height: 30vh;
-    background-color: #481c14;
-    color: white;
-<<<<<<< HEAD
-    font-size: 13px; 
-    font-weight: bold; 
-    text-align: center;
-    justify-content: center;
- }
- .pb-btn{
-=======
-    font-size: 13px;
-    font-weight: bold;
-    text-align: center;
-    justify-content: center;
-}
-.pb-btn{
->>>>>>> 26e5a5ad8aafadbb2cd6893c12681876286f66fc
-    background-color: #481c14;
-    color: white;
-    border: none;
-    width: 50%;
-    border-radius: 20px;
-    font-size: 20px;
-    font-weight: bold;
-<<<<<<< HEAD
- }
- .bg-beige{
-    background-color: rgb(210, 205, 205);
- }
- .bg-img-4{
-    width: 100%;
-    height: 70vh;
- }
- .btn-bronchure-3 {
-    top: 70%;
-    left: 15%;
-=======
-    padding: 10px 70px;
-}
-.bg-beige{
-    background-color: rgb(210, 205, 205);
-}
-.bg-img-4{
-    width: 100%;
-    height: 70vh;
-}
-.btn-bronchure-3 {
-    top: 70%;
-    left: 20%;
->>>>>>> 26e5a5ad8aafadbb2cd6893c12681876286f66fc
-    width: 75%;
-    height: 20px;
-    background-color: #481c14;
-    color: white;
-    border: none;
-    border-radius: 50px;
-<<<<<<< HEAD
-    font-size: 13px; 
-    font-weight: bold;
-    text-align: center;
- }
- .btn-bronchure-2{
-   top: 55%;
-    left: 15%;
-    width: 75%;
-    height: 20px;
-    background-color: #481c14;
-    color: white;
-    border: none;
-    border-radius: 50px;
-    font-size: 13px; 
-    font-weight: bold;
-    text-align: center;
- }
- .bg-img-5{
-    width: 100%;
-    height: 82vh;
- }
- .bg-img-6{
-    width: 100%;
-    height: 82vh;
- }
- .btn-bronchure-1{
-    top: 55%;
-    left: 15%;
-    width: 75%;
-    height: 20px;
-=======
-    font-size: 13px;
-    font-weight: bold;
-    text-align: center;
-}
-
-.btn-bronchure{
-    top: 55%;
-    left: 15%;
-    width: 65%;
-    height: 30px;
->>>>>>> 26e5a5ad8aafadbb2cd6893c12681876286f66fc
-    background-color: #481c14;
-    color: white;
-    border: none;
-    border-radius: 50px;
-<<<<<<< HEAD
-    font-size: 13px; 
-    font-weight: bold;
-    text-align: center;
- }
-=======
-    font-size: 17px;
-    font-weight: bold;
-    text-align: center;
-    margin: 20px;
-}
-
-.bg-img-5{
-    width: 100%;
-    height: 82vh;
-}
-.bg-img-6{
-    width: 100%;
-    height: 82vh;
-}
+    margin-top: 30px;  }
+    
+    .fashionContainer-4 h6{
+        background-color: #b8742c;
+        opacity: 0.7;
+        position: relative;
+        top: 20px;
+        font-family: Lastica, serif;
+        letter-spacing: 3px;
+        font-weight: bolder;
+        font-size: 20px;
+    }
 
 
 /* A PROPOS */
-.header2 {
+/* .header2 {
     background-color: black;
     height: 80px;
     width: 100%;
-}
-
-.heritage {
-    background-image: url("../img/back-heri.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 86vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
-.img-responsive1 {
-    max-width: 100%;
-    width: 350px;
-    height: 500px;
-    position: relative;
-    left: 45%;
-    top: -18%;
-}
-
-.img-responsive2 {
-    max-width: 100%;
-    width: 350px;
-    height: 500px;
-    position: relative;
-    left: 125%;
-    top: 20.4%;
-
-}
-
-.texte-heri1 {
-    position: absolute;
-    font-family: serif;
-    color: black;
-    font-weight: bold;
-    text-align: left;
-    transform: translate(-50%, 180%);
-}
-
-.texte-heri1 h1{
-    font-family: TAN MERINGUE, serif;
-    font-size: 50px;
-}
-
-.texte-heri2 {
-    color: #805f27;
-    font-size: 20px;
-    font-family: Lastica, serif;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    font-weight: bold;
-
-}
-
-.separation{
-    width: 50%;
-    margin-left: 500px;
-}
+} */
 
 
-.ligne-h{
-    display: flex;
-    padding: 0;
-}
 
-.welcome {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
-    margin: 50px 0 50px 0;
-    background-color: whitesmoke;
-    padding: 20px;
 
-}
 
-.welcome-titre{
-    display: flex;
-    justify-content: space-between;
-    font-family: Great Vibes, serif;
-}
 
-.welcome-titre h1{
-    padding-top: 25px;
-    font-size: 55px;
 
-}
 
-.welcome-titre img{
-    padding-top: 0;
-    margin-top: 0;
-}
 
-.welcome p{
-    font-family: Glacial Indifference, serif;
-}
 
-.picture{
-    justify-content: center;
-    padding-left: 60px;
-    padding-top: 0;
-}
 
-.img-welcome {
-    width: 325px;
-    height: 500px;
-}
 
-.logo-welcome {
-    width: 20%;
-    height: 20%;
-}
 
-.droite{
-}
 
-.pochette {
-    background-image: url("../img/heri5.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 900px;
-    display: flex;
-    align-items: end;
-    justify-content: center;
-    text-align: center;
-    color: white;
-}
 
-.pochette p {
-    font-size: 30px;
-    font-family: Great Vibes,serif;
-    letter-spacing: 2px;
-    color:black;
-    font-weight: bold;
 
-}
+
+
+
+
+
+
 /*IMPACT*/
 .symbole {
     width: 150px;
@@ -1417,4 +1046,3 @@ body, html {
 }
 
 
->>>>>>> 26e5a5ad8aafadbb2cd6893c12681876286f66fc

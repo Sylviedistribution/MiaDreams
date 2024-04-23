@@ -9,13 +9,13 @@
         <div class="row  px-5 ">
             <div class="col-md-9">
                 <h1 class="pb-text-fr pt-5 ps-3 text-center">Construisez une Image Forte </h1>
-                <p class="fs-5 pt-1">
+                <p class="fs-5 pt-1 para-indif">
                     Dans l'arène numérique d'aujourd'hui, votre image personnelle
                     est le pilier sur lequel repose votre succès professionnel.
                     C'est bien plus qu'une simple esthétique
                     : c'est votre essence, votre récit, votre marque distinctive.
                 </p>
-                <p class="fs-5 pt-1">
+                <p class="fs-5 pt-1 para-indif">
                     Au cœur de cette formule, nous explorons les éléments essentiels pour
                     créer une image forte et mémorable. De la définition de votre identité
                     de marque à la gestion de votre présence en ligne, nous mettons en
@@ -28,75 +28,46 @@
 
                         <p
                             class="pb-opacity-3 text-center  py-4 d-flex flex-column gap-3 opacity-75 text-white position-absolute">
-                            <span class="fw-bold fs-5">Demander</span>
-                            <span class="fw-bold fs-2 fst-italic">Votre</span>
-                            <span class="text-uppercase fw-bold fs-5">BILAN D'IMAGE</span>
+                            <span class="fw-bold fs-5 span-ind">Demander</span>
+                            <span class="fw-bold fs-2 span-anniya">Votre</span>
+                            <span class="text-uppercase fw-bold fs-5 span-lastica">BILAN D'IMAGE</span>
                         </p>
                     </div>
 
                     <div class="col-md-6 text-center position-relative">
-<<<<<<< HEAD
                         <img src={{ asset('img/SHOP8.jpg') }} alt="" class="bg-img-2">
-=======
-                        <img src={{ asset('img/SHOP8.jpg') }} alt="" class="bg-img-2" alt="">
->>>>>>> 26e5a5ad8aafadbb2cd6893c12681876286f66fc
                         <p
                             class="pb-opacity-2 text-center  py-4 d-flex flex-column gap-3 opacity-75 text-white position-absolute">
-                            <span class="fw-bold fs-5">Retrouver votre AUTHENTICITE</span>
-                            <span class="fw-bold fs-2 fst-itali">Elaborer</span>
-                            <span class=" text-uppercase fw-bold fs-5">votre garde-robe stratégique</span>
+                            <span class="fw-bold fs-5 span-ind">Retrouver votre AUTHENTICITE</span>
+                            <span class="fw-bold fs-2 span-anniya">Elaborer</span>
+                            <span class=" text-uppercase fw-bold span-lastica">votre garde-robe stratégique</span>
                         </p>
-<<<<<<< HEAD
 
                     </div>
                 </div>
-
             </div>
             <div class="col-md-3 text-center position-relative">
                 <div class="align-middle d-flex ">
                     <img src={{ asset('img/logo-miadreams-noir.png') }} alt="" class="img-fluid">
                 </div>
                 <img src={{ asset('img/4e7af837-a1ef-405e-8a13-9e0bf855af23.jfif') }} alt="" class="bg-img-1">
-=======
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-3 text-center position-relative">
-                <div class="align-middle d-flex ">
-                    <img src={{ asset('img/logo-miadreams-noir.png') }} alt="" class="img-fluid" alt="">
-                </div>
-                <img src={{ asset('img/4e7af837-a1ef-405e-8a13-9e0bf855af23.jfif') }} alt="" class="bg-img-1" alt="">
->>>>>>> 26e5a5ad8aafadbb2cd6893c12681876286f66fc
                 <p
                     class="pb-opacity-1 text-center  py-4 d-flex flex-column gap-3 opacity-75 text-white position-absolute">
-                    <span class=" fw-bold fs-5">Offrez-vous </span>
-                    <span class=" fw-bold fs-2 fst-italic">Votre</span>
-                    <span class="text-uppercase fw-bold fs-5">Brand plateform</span>
+                    <span class=" fw-bold fs-5  span-ind">Offrez-vous </span>
+                    <span class=" fw-bold fs-2 fst-italic span-anniya">Votre</span>
+                    <span class="text-uppercase fw-bold fs-5 span-lastica">Brand plateform</span>
                 </p>
-<<<<<<< HEAD
 
 
             </div>
         </div>
 
         <div class="text-center  pb-4">
-            <button class="pb-btn p-1">TELECHARGER NOTRE BRONCHURE</button>
-=======
-            </div>
-        </div>
-
-        <div class="text-center pb-4">
-            <a class="pb-btn p-1"
-                    href="{{ route('download', ['document' => 'Offre_Personal_Branding_2024.pdf']) }}">TELECHARGER NOTRE
-                BROCHURE
-            </a>
->>>>>>> 26e5a5ad8aafadbb2cd6893c12681876286f66fc
+            <button class="pb-btn p-1 span-lastica">TELECHARGER NOTRE BRONCHURE</button>
         </div>
     </div>
 </section>
 <section>
-<<<<<<< HEAD
     <div class="container-fluid bg-beige ">
         <div class="row  px-5 ">
             <div class="col-md-3 text-center position-relative">
@@ -108,24 +79,10 @@
                 <button class="btn-bronchure-3 text-center opacity-75  text-white position-absolute">
                     TELECHARGER NOTRE CATALOGUE 3
                 </button>
-=======
-    <div class=" container-fluid bg-beige">
-        <div class="row  px-5 ">
-            <div class="col-md-3 text-center position-relative">
-                <div class="align-middle">
-                    <img src={{ asset('img/logo-miadreams-noir.png') }} alt="" class="img-fluid" alt="">
-                </div>
-                <img src={{ asset('img/mia-dreams-catalogue.png') }} alt="" class="bg-img-4" alt="">
-
-                <a class="btn-bronchure-3 text-center opacity-75  text-white position-absolute"
-                   href="{{ route('download', ['document' => 'Catalogue_Personal_Branding_&_Etiquette_3.pdf']) }}">
-                    TELECHARGER NOTRE CATALOGUE 3
-                </a>
->>>>>>> 26e5a5ad8aafadbb2cd6893c12681876286f66fc
 
             </div>
             <div class="col-md-9">
-                <p class="fs-5 pt-5 ps-3">
+                <p class="fs-5 pt-5 ps-3 para-indif">
                     MIA DREAMS PERSONAL BRANDING & ETIQUETTE est notre catalogue qui a
                     pour objectif de présenter les nouvelles collections de la marque de une
                     façon originale de vous présenter nos créations autour d'un art de vivre
@@ -134,7 +91,6 @@
                 </p>
                 <div class="row">
                     <div class="col-md-6 text-center position-relative">
-<<<<<<< HEAD
                         <img src={{ asset('img/mia-dreams.png') }} alt="" class="bg-img-5">
 
                         <button class="btn-bronchure-2 opacity-75  text-white position-absolute">
@@ -148,33 +104,13 @@
                         <button class="btn-bronchure-1 opacity-75  text-white position-absolute">
                             TELECHARGER NOTRE CATALOGUE 1
                         </button>
-=======
-                        <img src={{ asset('img/mia-dreams.png') }} alt="" class="bg-img-5" alt="">
-
-                        <a class="btn-bronchure opacity-75  text-white position-absolute"
-                           href="{{ route('download', ['document' => 'Catalogue_Personal_Branding_&_Etiquette_2.pdf'])}}">
-                            TELECHARGER NOTRE CATALOGUE 2
-                        </a>
-                    </div>
-
-                    <div class=" col-md-6 text-center position-relative">
-                        <img src={{ asset('img/miadreams-catalogue-2.png') }} alt="" class="bg-img-6" alt="">
-
-                        <a class="btn-bronchure opacity-75  text-white position-absolute"
-                           href="{{ route('download', ['document' => 'Catalogue_Personal_Branding_&_Etiquette_1.pdf']) }}">
-                            TELECHARGER NOTRE CATALOGUE 1
-                        </a>
->>>>>>> 26e5a5ad8aafadbb2cd6893c12681876286f66fc
                     </div>
                 </div>
 
             </div>
         </div>
     </div>
-<<<<<<< HEAD
     </div>
-=======
->>>>>>> 26e5a5ad8aafadbb2cd6893c12681876286f66fc
 </section>
 
 @include('layouts.footer')

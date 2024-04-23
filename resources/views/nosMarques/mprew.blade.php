@@ -10,7 +10,7 @@
 <div class="container mprew-container-2 ">
     <div class="video-presentation">
         <iframe width="1300" height="450" src="https://www.youtube.com/embed/INho0oVn2Ao" frameborder="0"
-                allowfullscreen></iframe>
+            allowfullscreen></iframe>
     </div>
 </div>
 <div class="container mprew-container-3 ">
@@ -22,13 +22,13 @@
         pouvez créer votre robe. Vous serez livré sous 3 semaines
     </p>
     <video width="150" height="200" controls>
-        <source src="{{asset("video/presentation-mprew.mp4")}}" type="video/mp4" >
+        <source src="{{ asset('video/presentation-mprew.mp4') }}" type="video/mp4">
         Votre navigateur ne prend pas en charge la balise vidéo.
     </video>
     <video width="640" height="360" controls>
-        <source src="{{asset("video/nos-tissus.mp4")}}" type="video/mp4">
+        <source src="{{ asset('video/nos-tissus.mp4') }}" type="video/mp4">
         Votre navigateur ne prend pas en charge la balise vidéo.
     </video>
-    <img src="{{asset("img/processus.jpg")}}" alt="">
+    <img src="{{ asset('img/processus.jpg') }}" alt="" class="img-mprw ">
 </div>
 @include('layouts.footer')

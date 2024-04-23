@@ -1,49 +1,65 @@
 @include('layouts.header')
-
-<!-- Section "Bannière" -->
-<div class="container-fluid home-container-1 d-flex justify-content-center position-relative">
-    <div class="info position-absolute top-50 start-50">
-        <h1>
-            REVOLUTION <br>
-            FASHION
-        </h1>
-        <h4>
-            L'ARTISANAT EST AU COEUR<br>
-            DE NOTRE METIER
-        </h4>
+<section>
+    <div class=" home-container-1 ">
+        <div class="info ">
+            <h1>
+                REVOLUTION <br>
+                FASHION
+            </h1>
+            <h4>
+                L'ARTISANAT EST AU COEUR<br>
+                DE NOTRE METIER
+            </h4>
+        </div>
     </div>
-</div>
+</section>
 
 <!-- Section "Vidéo et Description" -->
-<div class="container home-container-2">
-    <div class="video">
-        <iframe width="700" height="420" src="https://www.youtube.com/embed/sTfEIkU309s" frameborder="0"
-                allowfullscreen></iframe>
+<section>
+    <div class="container-fluid px-5 py-5">
+        <div class="row">
+            <div class=" col-md-6 video">
+                <iframe src="https://www.youtube.com/embed/sTfEIkU309s" frameborder="0" allowfullscreen></iframe>
+
+            </div>
+
+            <div class=" col-md-6 section-text">
+                <div class="pt-5">
+                    <h2><strong>“Notre startup diffuse l’ensemble de la richesse culturelle
+                            du continent africain”</strong></h2>
+
+                </div>
+                <div class="pt-5">
+                    <p> Au-delà d'une simple entreprise ou d'une
+                        marque de vêtements, nous incarnons un
+                        univers contemporain de la mode africaine.
+                        Notre savoir-faire dans l'industrie textile du
+                        continent est empreint de valeurs vertueuses,
+                        tout en embrassant l'innovation numérique.
+                        Plaçant l'humain au cœur de notre métier, nous
+                        faisons de chaque création une expression de
+                        notre engagement envers l'excellence et
+                        l'authenticité.
+                    </p>
+                </div>
+
+            </div>
+        </div>
     </div>
-    <div class="section-text">
-        <h2><strong>“Notre startup diffuse l’ensemble de la richesse culturelle du continent africain”</strong></h2>
-        <p> Au-delà d'une simple entreprise ou d'une
-            marque de vêtements, nous incarnons un
-            univers contemporain de la mode africaine.
-            Notre savoir-faire dans l'industrie textile du
-            continent est empreint de valeurs vertueuses,
-            tout en embrassant l'innovation numérique.
-            Plaçant l'humain au cœur de notre métier, nous
-            faisons de chaque création une expression de
-            notre engagement envers l'excellence et
-            l'authenticité.
-        </p>
-    </div>
-</div>
+</section>
 
 <!-- Section "Univers authentique" -->
 
-<div class="container home-container-3" >
+<div class="container home-container-3">
+   <div class="Container-home px-5">
     <p>Plus qu'une entreprise, un univers authentique aux
         inspirations africaines et contemporaines.</p>
+   </div>
 </div>
+
+
 <!-- Section "Découvrez nos produits" -->
-<div class="container home-container-4">
+{{-- <div class="container home-container-4">
 
     <div class="image-container black">
         <img id="home-image2" src="{{asset("img/home-image2.jpg")}}" alt="">
@@ -69,10 +85,10 @@
         </div>
         <p class="description"> Notre programme de formation</p>
     </div>
-</div>
+</div> --}}
 
 <!-- Section "Nouvelle offre en Personal Branding" -->
-<div class="container home-container-5">
+{{-- <div class="container home-container-5">
     <!-- Image de l'offre -->
     <div>
         <div class="image-container-fashion ">
@@ -100,10 +116,10 @@
         <!-- Bouton pour découvrir la brochure -->
         <a class="btn" href="{{ route('personalBranding') }}">DÉCOUVREZ NOTRE BROCHURE</a>
     </div>
-</div>
+</div> --}}
 
 <!-- Section "ETHICAL FASHION" -->
-<div class="container home-container-6">
+{{-- <div class="container home-container-6">
     <div class="section-text">
         <div class="titre2">
             <p>
@@ -119,9 +135,9 @@
     </div>
     <!-- Image illustrant la m1ode éthique -->
     <img id="home-image6" src="{{asset("img/home-image6.jpg")}}" alt="">
-</div>
+</div> --}}
 
-<div class="container home-container-7">
+{{-- <div class="container home-container-7">
     <img id="home-image7" src="{{asset("img/home-image7.webp")}}" alt="">
 
     <div>
@@ -139,9 +155,9 @@
         </p><br>
         <a class="btn" href="https://otentikmia.wixsite.com/blog/accueil">DECOUVREZ</a><br><br>
     </div>
-</div>
-<div class="container-fluid home-container-8">
+</div> --}}
+{{-- <div class="container-fluid home-container-8">
     <h1>Made In Africa</h1>
-</div>
+</div> --}}
 
 @include('layouts.footer')

@@ -1,0 +1,60 @@
+.home-container-1 {
+    background-image: url("../img/home-image1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #603512;
+    background-position: center;
+    height: 700px;
+    color: white;
+
+}
+.home-container-1 .info {
+    color: white;
+  
+    font-family: Lastica, serif;
+  
+
+}
+.info h1 {
+    color: white;
+    font-weight: bold;
+    letter-spacing: 5px;
+    padding-left: 5%;
+    padding-top: 25%;
+    font-size: 17px;
+}
+
+.info h4 {
+    color: white;
+    word-spacing: 10px;
+    padding-left:5%;
+    font-size: 15px;
+}
+.video iframe{
+    width: 100%;
+    height: 400px;
+    max-height: 100%;
+    object-fit: cover;
+}
+ .section-text h2 {
+    font-family: Shrikhand, serif;
+}
+
+.section-text p {
+    font-family: GlacialIndifference, serif;
+}
+.home-container-3 {
+    background-image: url('../img/robe2-removebg.png');
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Aniyah', serif;
+    opacity: 90%;
+}
+
+
+.home-container-3 p {
+    text-align: center;
+   font-weight: bold;
+}
+

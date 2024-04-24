@@ -71,4 +71,4 @@ Route::controller(DownloadController::class)->group(function () {
 });
 
 //Partie admin Filament
-Route::get('admin', [FilamentController::class, 'index'])->name('filament.dashboard');
+

@@ -69,19 +69,19 @@
 </section>
 <section>
     <div class="container-fluid bg-beige ">
-        <div class="row  px-5 ">
-            <div class="col-md-3 text-center position-relative">
+        <div class="row ">
+            <div class="col-md-6 text-center position-relative">
                 <div class="align-middle">
-                    <img src={{ asset('img/logo-miadreams-noir.png') }} alt="" class="img-fluid">
+                    <img src={{ asset('img/logo-miadreams-noir.png') }} alt="" class="img-fluid  pb-logo-mia">
                 </div>
-                <img src={{ asset('img/mia-dreams-catalogue.png') }} alt="" class="bg-img-4">
+                <img src={{ asset('img/mia-dreams-catalogue.png') }} alt="" class="bg-img-4 pb-4">
 
                 <button class="btn-bronchure-3 text-center opacity-75  text-white position-absolute">
                     TELECHARGER NOTRE CATALOGUE 3
                 </button>
 
             </div>
-            <div class="col-md-9">
+            <div class="col-md-6">
                 <p class="fs-5 pt-5 ps-3 para-indif">
                     MIA DREAMS PERSONAL BRANDING & ETIQUETTE est notre catalogue qui a
                     pour objectif de présenter les nouvelles collections de la marque de une
@@ -91,19 +91,19 @@
                 </p>
                 <div class="row">
                     <div class="col-md-6 text-center position-relative">
-                        <img src={{ asset('img/mia-dreams.png') }} alt="" class="bg-img-5">
+                        <img src={{ asset('img/mia-dreams.png') }} alt="" class="bg-img-5 pb-4">
 
-                        <button class="btn-bronchure-2 opacity-75  text-white position-absolute">
+                        <a href="{{ route('download', ['document' => "Rapport_d'activite_MPREW.pdf"]) }}" class="btn-bronchure-2 opacity-75  text-white position-absolute">
                             TELECHARGER NOTRE CATALOGUE 2
-                        </button>
+                        </a>
                     </div>
 
                     <div class="col-md-6 text-center position-relative">
-                        <img src={{ asset('img/miadreams-catalogue-2.png') }} alt="" class="bg-img-6">
+                        <img src={{ asset('img/miadreams-catalogue-2.png') }} alt="" class="bg-img-6 pb-4">
 
-                        <button class="btn-bronchure-1 opacity-75  text-white position-absolute">
+                        <a class="btn-bronchure-1 opacity-75  text-white position-absolute">
                             TELECHARGER NOTRE CATALOGUE 1
-                        </button>
+                        </a>
                     </div>
                 </div>
 
@@ -114,4 +114,3 @@
 </section>
 
 @include('layouts.footer')
- 

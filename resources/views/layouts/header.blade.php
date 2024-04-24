@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="{{ asset('css/personal-branding.css') }}">
     <link rel="stylesheet" href="{{ asset('css/a-propos.css') }}">
     <link rel="stylesheet" href="{{ asset('css/index.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/header.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/header.css') }}"> 
     <link rel="stylesheet" href="{{ asset('css/bootstrap.css') }}">
     <title>Accueil</title>
 

@@ -52,7 +52,7 @@
 <section>
     <div class="container py-3 home-container-3">
 
-        <p class="fs-5">Plus qu'une entreprise, un univers authentique aux
+        <p class="fs-3">Plus qu'une entreprise, un univers authentique aux
             inspirations africaines et contemporaines.</p>
 
     </div>

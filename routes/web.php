@@ -45,7 +45,7 @@ Route::get('/fashionProgram', function () {
 
 //Journal
 Route::get('/apropos', function () {
-    return view('apropos');
+    return view('a-propos');
 })->name('apropos');
 
 //Impact

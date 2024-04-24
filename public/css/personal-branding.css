@@ -1,0 +1,160 @@
+.pb-bg{
+    background-image:url('../img/pb-image1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #603512;
+    background-position: center;
+    height: 700px;
+    color: white;
+
+}
+.pb-bg h3{
+    padding-left: 200px;
+    padding-top: 500px;
+    text-wrap: 3px;
+    font-weight: bold;
+}
+.pb-text-fr{
+    color: #603512;
+    font-family: TAN MERINGUE, serif;
+}
+.para-indif{
+    font-family: GlacialIndifference, serif;
+}
+.bg-img-3{
+    width: 100%;
+    height: 70vh;
+}
+.pb-opacity-3{
+    top: 25%;
+    left: 13%;
+    width: 80%;
+    height: 40vh;
+    background-color: #481c14;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+
+}
+.span-ind{
+    font-family: GlacialIndifference, serif;
+}
+.span-anniya{
+    font-family: Aniyah, serif;
+}
+.span-lastica{
+    font-family: Lastica, serif;
+}
+
+
+.bg-img-2{
+    width: 100%;
+    height: 70vh;
+
+ }
+
+.pb-btn{
+    background-color: #481c14;
+    color: white;
+    border: none;
+    width: 50%;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+ }
+ .bg-beige{
+    background-color: rgb(210, 205, 205);
+ }
+ .bg-img-4{
+    width: 100%;
+    height: 70vh;
+ }
+
+.pb-opacity-2{
+    top: 35%;
+    left: 12%;
+    width: 80%;
+    height: 40vh;
+    background-color: #481c14;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+}
+.align-middle{
+    justify-content: center;
+}
+.bg-img-1{
+    width: 100%;
+    height: 70vh;
+}
+.pb-opacity-1{
+    top: 64%;
+    left: 22%;
+    width: 70%;
+    height: 30vh;
+    background-color: #481c14;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+ }
+ .btn-bronchure-3 {
+    top: 70%;
+    left: 20%;
+    width: 75%;
+    height: 40px;
+    background-color: #481c14;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Lastica, serif;
+ }
+
+ .btn-bronchure-2{
+     top: 55%;
+     left: 15%;
+     width: 75%;
+     height: 20px;
+     background-color: #481c14;
+     color: white;
+     border: none;
+     border-radius: 50px;
+     font-size: 13px;
+     font-weight: bold;
+     text-align: center;
+     font-family: Lastica, serif;
+  }
+  .bg-img-5{
+     width: 100%;
+     height: 82vh;
+  }
+
+
+ .bg-img-6{
+    width: 100%;
+    height: 82vh;
+ }
+ .btn-bronchure-1{
+    top: 55%;
+    left: 15%;
+    width: 75%;
+    height: 20px;
+    background-color: #481c14;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Lastica, serif;
+}

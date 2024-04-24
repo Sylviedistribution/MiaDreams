@@ -76,7 +76,7 @@
     <div class="container-fluid d-flex justify-content-center align-items-center">
         <img src="{{asset("img/impact.jpg")}}" class="img-fluid w-100"
              alt="Soutenez nos différentes initiatives pour donner accès à la FORMATION">
-        <h2 class="text-center position-absolute start-50">
+        <h2 class="text-center start-50">
             Un atelier de confection parfaitement équipé
         </h2>
     </div>

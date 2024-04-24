@@ -3,10 +3,10 @@
         <div class="row gap-3 text-center ">
             <div class="col-md-2 ">
                 <img src={{ asset('img/logo-miadreams-noir.png') }} alt="logo_footer" class="img-fluid" width="auto"
-                     height="auto" alt="">
+                    height="auto" alt="">
             </div>
             <div class="col-md-2 pt-5">
-                <h3 class="fw-light  fs-4">INFORMATIONS</h3>
+                <h3 class="fw-light  fs-4">INFORATIONS</h3>
                 <div class="fw-bolder">
                     <a>
                         <p class="">Newsletter</p>
@@ -69,12 +69,17 @@
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-<script src="{{asset("js/bootstrap.min.js")}}"></script>
-<script src="{{asset("js/script.js")}}"></script>
+<script src="{{ asset('js/bootstrap.min.js') }}"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+
+<!-- Votre script JavaScript pour l'animation -->
+<script>
+    $(document).ready(function() {
+        $(".container-1,.container-2,.container-3,.container-4,.container-5,.container-6,.container-7,.container-8")
+            .addClass("animate__animated animate__fadeInDown");
+    });
 </script>
 </body>
+
 </html>
 

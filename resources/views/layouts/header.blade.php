@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="{{ asset('css/miadreams.css')}}">
     <link rel="stylesheet" href="{{ asset('css/mprew.css')}}">
     <link rel="stylesheet" href="{{ asset('css/fashionprogram.css')}}">
+    <link rel="stylesheet" href="{{ asset('css/a-propos.css')}}">
+
     <link rel="stylesheet" href="{{ asset('css/impact.css')}}">
 
     <link rel="stylesheet" href="{{ asset('css/personal-branding.css') }}">

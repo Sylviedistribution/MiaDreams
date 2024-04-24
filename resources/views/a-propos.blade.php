@@ -103,7 +103,7 @@
             <div class="col-md-8">
                 <div class="welcome-titre">
                     <h1>Hi! <br>I'm Orlane Selena Bouanga</h1>
-                    <img src="{{ asset('img/logo-miadreams-noir.png') }}" class="logo-welcome" alt="">>
+                    <img src="{{ asset('img/logo-miadreams-noir.png') }}" class="logo-welcome" alt="">
                 </div>
                 <div class="">
                     <p>Je détiens une licence en droit des affaires délivrée par l'Institut Supérieur de Management

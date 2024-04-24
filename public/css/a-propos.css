@@ -25,7 +25,7 @@
 
  width: 37%;
  left: 20%;
- top: 0%;
+ top: 0;
  z-index: 3;
 }
 
@@ -56,15 +56,16 @@
 
 .img-welcome {
     width: 400px;
-    height: 200px;
+    height: 100%;
 }
 .welcome-titre{
     display: flex;
     justify-content: space-between;
-    font-family: Great Vibes, serif;
+
 }
 
 .welcome-titre h1{
+    font-family: Great Vibes, serif;
     padding-top: 25px;
     font-size: 55px;
 
@@ -99,5 +100,9 @@
     letter-spacing: 2px;
     color:black;
     font-weight: bold;
-
 }
+
+.heri-gauche p{
+    font-family: GlacialIndifference, serif;
+}
+

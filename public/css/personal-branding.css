@@ -11,7 +11,6 @@
 .pb-bg h3{
     padding-left: 200px;
     padding-top: 500px;
-    text-wrap: 3px;
     font-weight: bold;
 }
 .pb-text-fr{
@@ -20,6 +19,7 @@
 }
 .para-indif{
     font-family: GlacialIndifference, serif;
+    font-weight: bold;
 }
 .bg-img-3{
     width: 100%;
@@ -30,7 +30,7 @@
     left: 13%;
     width: 80%;
     height: 40vh;
-    background-color: #481c14;
+    background-color: #903a1c;
     color: white;
     font-size: 13px;
     font-weight: bold;
@@ -53,7 +53,7 @@
     width: 100%;
     height: 70vh;
 
- }
+}
 
 .pb-btn{
     background-color: #481c14;
@@ -65,21 +65,21 @@
     font-weight: bold;
     justify-content: center;
     text-align: center;
- }
- .bg-beige{
+}
+.bg-beige{
     background-color: rgb(210, 205, 205);
- }
- .bg-img-4{
+}
+.bg-img-4{
     width: 100%;
-    height: 70vh;
- }
+    height: 102vh;
+}
 
 .pb-opacity-2{
     top: 35%;
     left: 12%;
     width: 80%;
     height: 40vh;
-    background-color: #481c14;
+    background-color: #903a1c;
     color: white;
     font-size: 13px;
     font-weight: bold;
@@ -87,7 +87,11 @@
     justify-content: center;
 }
 .align-middle{
+    display: flex;
     justify-content: center;
+}
+.pb-logo-mia{
+    width: 30%;
 }
 .bg-img-1{
     width: 100%;
@@ -98,63 +102,72 @@
     left: 22%;
     width: 70%;
     height: 30vh;
-    background-color: #481c14;
+    background-color: #903a1c;
     color: white;
     font-size: 13px;
     font-weight: bold;
     text-align: center;
     justify-content: center;
- }
- .btn-bronchure-3 {
-    top: 70%;
-    left: 20%;
-    width: 75%;
-    height: 40px;
-    background-color: #481c14;
+}
+.btn-brochure-3 {
+    top: 58%;
+    left: 30%;
+    width: 40%;
+    background-color: #903a1c;
     color: white;
-    border: none;
     border-radius: 50px;
-    font-size: 13px;
+    border: 1px solid black;
+    font-size: 10px;
     font-weight: bold;
     text-align: center;
     font-family: Lastica, serif;
- }
+    letter-spacing: 3px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
 
- .btn-bronchure-2{
-     top: 55%;
-     left: 15%;
-     width: 75%;
-     height: 20px;
-     background-color: #481c14;
-     color: white;
-     border: none;
-     border-radius: 50px;
-     font-size: 13px;
-     font-weight: bold;
-     text-align: center;
-     font-family: Lastica, serif;
-  }
-  .bg-img-5{
-     width: 100%;
-     height: 82vh;
-  }
-
-
- .bg-img-6{
-    width: 100%;
-    height: 82vh;
- }
- .btn-bronchure-1{
-    top: 55%;
+.btn-brochure-2{
+    top: 45%;
     left: 15%;
     width: 75%;
-    height: 20px;
-    background-color: #481c14;
+    background-color: #903a1c;
     color: white;
-    border: none;
+    border: 1px solid black;
     border-radius: 50px;
-    font-size: 13px;
+    font-size: 10px;
     font-weight: bold;
     text-align: center;
     font-family: Lastica, serif;
+    text-decoration: none;
+    letter-spacing: 3px;
 }
+
+.bg-img-5{
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+.btn-brochure-1{
+    top: 45%;
+    left: 15%;
+    width: 75%;
+    background-color: #903a1c;
+    color: white;
+    border: 1px solid black;
+    border-radius: 50px;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Lastica, serif;
+    letter-spacing: 3px;
+    text-decoration: none;
+}
+
+.bg-img-6{
+    width: 100%;
+    height: 100%;
+}
+

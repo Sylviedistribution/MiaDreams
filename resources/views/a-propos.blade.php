@@ -89,7 +89,7 @@
     </div>
 </section>
 
-<section>
+<section class="py-5">
     <div class="container-fluid pochette">
         <p>Nous sommes animés par la passion et l’amour... </p>
     </div>

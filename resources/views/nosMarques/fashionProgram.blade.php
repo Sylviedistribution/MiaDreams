@@ -3,18 +3,16 @@
 <!-- Section "Bannière" -->
 <div class="fashionContainer-1 container-fluid mt-5">
     <div class="row justify-content-center align-items-center">
-        <div class="col-12">
-            <div class="fashionProgram-container-1 text-center">
-                <h1 class="display-4">NOTRE FASHION PROGRAM</h1>
-                <div class="video pl-6">
-                    <iframe width="1200" height="600" src="https://www.youtube.com/embed/F1Q2vjh2nms" frameborder="0"
-                            allowfullscreen></iframe>
-                </div>
-            </div>
+        <div class="text-center">
+            <h1 class="display-4">NOTRE FASHION PROGRAM</h1>
         </div>
     </div>
-</div>
 
+</div>
+<div class="video-presentation-2 px-5">
+    <iframe src="https://www.youtube.com/embed/F1Q2vjh2nms" frameborder="0"
+            allowfullscreen></iframe>
+</div>
 <!-- Section "Mise en oeuvre du programme de formation" -->
 <div class="fashionContainer-2 container mt-5 mb-5">
     <div class="row">

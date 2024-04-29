@@ -7,8 +7,7 @@
             </div>
             <div class="col-md-2 pt-5">
                 <h3 class="fw-light  fs-4">INFORATIONS</h3>
-                <div class="fw-bolder 
-                ">
+                <div class="fw-bolder">
                     <a>
                         <p class="">Newsletter</p>
                     </a>
@@ -49,7 +48,7 @@
             </div>
             <div class="col-md-2 pt-5">
                 <h3 class="fw-light fs-4">NOUS SUIVRE</h3>
-                <div class="d-flex flex-row ps-3">
+                <div class="d-flex flex-row ps-3 nous-suivre-1">
                     <img src={{ asset('img/facebook.png') }} alt="" class=" logo-sociaux img-fluid "
                          alt="">
                     <img src={{ asset('img/instagram.png') }} alt="" class="logo-sociaux img-fluid "
@@ -57,7 +56,7 @@
                     <img src={{ asset('img/youtube.png') }} alt="" class="logo-sociaux img-fluid "
                          alt="">
                 </div>
-                <div class="d-flex flex-row pb-2 ps-3">
+                <div class="d-flex flex-row pb-2 ps-3 nous-suivre-2">
                     <img src={{ asset('img/logo-linkedin.png') }} alt="" class="logo-sociaux img-fluid "
                          alt="">
                     <img src={{ asset('img/twitter.png') }} alt="" class="logo-sociaux img-fluid "
@@ -69,17 +68,14 @@
 
 </footer>
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+</script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
 <script src="{{ asset('js/bootstrap.min.js') }}"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-<!-- Votre script JavaScript pour l'animation -->
-<script>
-    $(document).ready(function() {
-        $(".container-1,.container-2,.container-3,.container-4,.container-5,.container-6,.container-7,.container-8")
-            .addClass("animate__animated animate__fadeInDown");
-    });
-</script>
+
 </body>
 
 </html>

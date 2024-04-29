@@ -1,4 +1,6 @@
 @include('layouts.header')
+
+<!-- Section "Bannière" -->
 <section>
     <div class=" home-container-1 ">
         <div class="info fs-3 ">
@@ -15,6 +17,7 @@
 </section>
 
 <!-- Section "Vidéo et Description" -->
+
 <section>
     <div class="container-fluid px-5 py-5">
         <div class="row">
@@ -52,15 +55,14 @@
 <section>
     <div class="container py-3 home-container-3">
 
-        <p class="fs-3">Plus qu'une entreprise, un univers authentique aux
+        <p class="fs-2">Plus qu'une entreprise, un univers authentique aux
             inspirations africaines et contemporaines.</p>
-
     </div>
 </section>
 
 <!-- Section "Découvrez nos produits" -->
 <section>
-    <div class="container">
+    <div class="container home-container-4">
         <div class="row  py-5">
             <div class="col-md-4 py-5 position-relative">
                 <div class="container-black  position-absolute"></div>
@@ -93,5 +95,87 @@
     </div>
 </section>
 
+
+<!-- Section "Nouvelle offre en Personal Branding" -->
+<div class="container home-container-5">
+    <!-- Image de l'offre -->
+    <div class="row">
+        <div class="col-md-4">
+            <img id="home-image5" class="img-fluid" src="{{asset("img/home-image5.jpg")}}" alt="">
+        </div>
+        <div class="section-text col-md-8">
+            <div class="titre1">
+                <p>
+                    <strong>NOUVEAU</strong><br>
+                    OFFRE EN PERSONAL<br>
+                    BRANDING
+                </p>
+            </div>
+            <!-- Description de l'offre -->
+            <div class="paragraphe ">
+                <p> Une méthode et un accompagnement uniques au service de votre leadership, qui vous
+                    font
+                    gagner du temps. Nous
+                    allons vous aider à développer votre propre style, dans une démarche bienveillante. Notre approche
+                    structurée et ultra-professionnelle vous permettra de constituer un dressing digne de la Haute
+                    Couture.</p>
+            </div>
+            <br>
+            <!-- Bouton pour découvrir la brochure -->
+            <a class="btn" href="{{ route('personalBranding') }}">DECOUVREZ NOTRE OFFRE</a>
+        </div>
+    </div>
+
+</div>
+
+<!-- Section "ETHICAL FASHION" -->
+<div class="container home-container-6">
+    <div class="row">
+        <div class="section-text col-md-8">
+            <div class="titre2">
+                <p>
+                    <strong>ETHICAL FASHION</strong>
+                </p>
+            </div>
+            <p class="paragraphe"> Chez Mia Dreams and Co, notre engagement envers une mode éthique et responsable est
+                au
+                cœur de notre
+              /  identité. Nous croyons fermement que la mode peut être une force positive, contribuant non seulement à
+                votre
+                style, mais également au bien-être de la planète et de ses habitants.</p><br>
+            <!-- Bouton pour découvrir nos engagements -->
+            <a class="btn" href="{{route('impact')}}">NOS ENGAGEMENTS</a>
+        </div>
+        <div class="col-md-4">
+            <!-- Image illustrant la m1ode éthique -->
+            <img id="home-image6" class="img-fluid" src="{{asset("img/home-image6.jpg")}}" alt="">
+        </div>
+
+    </div>
+
+</div>
+
+<div class="container home-container-7">
+    <img id="home-image7" class="img-fluid w-100" src="{{asset("img/home-image7.webp")}}" alt="">
+
+    <div>
+        <h6><strong>NOS DERNIERS ARTICLES DE <span>BLOG</span></strong></h6><br>
+
+        <p>WELCOME IN MY WORLD, bienvenue dans l'univers d'OTENTIK MIA !</p>
+
+        <p class="paragraphe">
+            Si vous faites la découverte de ce blog pour la première fois, je me nomme Khady SY SAVANE, fondatrice de la
+            startup MIA DREAMS & CO.
+            MIA DREAMS & CO va au-delà de la simple entreprise : c'est un véritable univers qui gravite autour de la
+            mode, du personal branding, de
+            l’entreprenariat, de la décoration et de la gastronomie, influencé par une atmosphère africaine &
+            contemporaine.
+        </p><br>
+        <a class="btn" href="https://otentikmia.wixsite.com/blog/accueil">DECOUVREZ</a><br><br>
+    </div>
+</div>
+<div class="container-fluid home-container-8">
+    <h1>Made In Africa</h1>
+</div>
 
 @include('layouts.footer')

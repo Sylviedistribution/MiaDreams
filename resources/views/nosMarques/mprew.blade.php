@@ -1,14 +1,14 @@
 @include('layouts.header')
 
 <div class="container-fluid mprew-container-1 ">
-    <div class="position-absolute top-0  translate-middle text-end date-annonce">
+    <div class="top-0  translate-middle text-end date-annonce">
         <p>CREATE</p>
         <p>FASHION</p>
         <p>TOGETHER</p>
     </div>
 </div>
 <div class="container mprew-container-2 ">
-    <div class="video-presentation">
+    <div class="video-presentation-1">
         <iframe width="1300" height="450" src="https://www.youtube.com/embed/INho0oVn2Ao" frameborder="0"
             allowfullscreen></iframe>
     </div>
@@ -29,6 +29,6 @@
         <source src="{{ asset('video/nos-tissus.mp4') }}" type="video/mp4">
         Votre navigateur ne prend pas en charge la balise vidéo.
     </video>
-    <img src="{{ asset('img/processus.jpg') }}" alt="" class="img-mprw ">
+    <img src="{{ asset('img/processus.jpg') }}" alt="" class="img-mprew ">
 </div>
 @include('layouts.footer')

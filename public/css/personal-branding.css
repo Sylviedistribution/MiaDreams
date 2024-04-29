@@ -11,7 +11,6 @@
 .pb-bg h3{
     padding-left: 200px;
     padding-top: 500px;
-    text-wrap: 3px;
     font-weight: bold;
 }
 .pb-text-fr{
@@ -19,7 +18,8 @@
     font-family: TAN MERINGUE, serif;
 }
 .para-indif{
-    font-family: GlacialIndifference;
+    font-family: GlacialIndifference, serif;
+    font-weight: bold;
 }
 .bg-img-3{
     width: 100%;
@@ -30,7 +30,7 @@
     left: 13%;
     width: 80%;
     height: 40vh;
-    background-color: #481c14;
+    background-color: #903a1c;
     color: white;
     font-size: 13px;
     font-weight: bold;
@@ -39,13 +39,13 @@
 
 }
 .span-ind{
-    font-family: GlacialIndifference;
+    font-family: GlacialIndifference, serif;
 }
 .span-anniya{
-    font-family: Aniyah;
+    font-family: Aniyah, serif;
 }
 .span-lastica{
-    font-family: Lastica;
+    font-family: Lastica, serif;
 }
 
 
@@ -53,8 +53,8 @@
     width: 100%;
     height: 70vh;
 
- }
- 
+}
+
 .pb-btn{
     background-color: #481c14;
     color: white;
@@ -65,21 +65,29 @@
     font-weight: bold;
     justify-content: center;
     text-align: center;
- }
- .bg-beige{
+}
+.bg-beige{
     background-color: rgb(210, 205, 205);
+<<<<<<< HEAD
  }
  .bg-img-4{
     width: 70%;
     height: 550px;
  }
+=======
+}
+.bg-img-4{
+    width: 100%;
+    height: 102vh;
+}
+>>>>>>> ba38f2c01cb5878ee7f0fc42bbb4a1ec9233c8cb
 
 .pb-opacity-2{
     top: 35%;
     left: 12%;
     width: 80%;
     height: 40vh;
-    background-color: #481c14;
+    background-color: #903a1c;
     color: white;
     font-size: 13px;
     font-weight: bold;
@@ -91,7 +99,11 @@
     justify-content: center;
 }
 .pb-logo-mia{
+<<<<<<< HEAD
     width: 100px;
+=======
+    width: 30%;
+>>>>>>> ba38f2c01cb5878ee7f0fc42bbb4a1ec9233c8cb
 }
 .bg-img-1{
     width: 100%;
@@ -102,12 +114,13 @@
     left: 22%;
     width: 70%;
     height: 30vh;
-    background-color: #481c14;
+    background-color: #903a1c;
     color: white;
-    font-size: 13px; 
-    font-weight: bold; 
+    font-size: 13px;
+    font-weight: bold;
     text-align: center;
     justify-content: center;
+<<<<<<< HEAD
  }
  .btn-bronchure-3 {
     top: 60%;
@@ -115,12 +128,21 @@
     width: 50%;
     height: 40px;
     background-color: #481c14;
+=======
+}
+.btn-brochure-3 {
+    top: 58%;
+    left: 30%;
+    width: 40%;
+    background-color: #903a1c;
+>>>>>>> ba38f2c01cb5878ee7f0fc42bbb4a1ec9233c8cb
     color: white;
-    border: none;
     border-radius: 50px;
-    font-size: 13px; 
+    border: 1px solid black;
+    font-size: 10px;
     font-weight: bold;
     text-align: center;
+<<<<<<< HEAD
     font-family: Lastica;
  }
  
@@ -151,15 +173,56 @@
  }
  .btn-bronchure-1{
     top: 55%;
+=======
+    font-family: Lastica, serif;
+    letter-spacing: 3px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-brochure-2{
+    top: 45%;
+>>>>>>> ba38f2c01cb5878ee7f0fc42bbb4a1ec9233c8cb
     left: 15%;
     width: 75%;
-    height: 20px;
-    background-color: #481c14;
+    background-color: #903a1c;
     color: white;
-    border: none;
+    border: 1px solid black;
     border-radius: 50px;
-    font-size: 13px; 
+    font-size: 10px;
     font-weight: bold;
     text-align: center;
-    font-family: Lastica;
+    font-family: Lastica, serif;
+    text-decoration: none;
+    letter-spacing: 3px;
 }
+
+.bg-img-5{
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+.btn-brochure-1{
+    top: 45%;
+    left: 15%;
+    width: 75%;
+    background-color: #903a1c;
+    color: white;
+    border: 1px solid black;
+    border-radius: 50px;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Lastica, serif;
+    letter-spacing: 3px;
+    text-decoration: none;
+}
+
+.bg-img-6{
+    width: 100%;
+    height: 100%;
+}
+

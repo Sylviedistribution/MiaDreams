@@ -32,10 +32,10 @@
 <section class="pt-5">
     <div class="container-fluid welcome ">
         <div class=" row">
-            <div class="col-md-5 px-3 position-relative">
+            <div class="col-md-4 px-3 d-flex justify-content-center position-relative">
                 <img src="img/heri3.jpg" class="img-welcome img-fluid py-4 " alt="">
             </div>
-            <div class="col-md-7">
+            <div class="col-md-8">
                 <div class="welcome-titre">
                     <h1>
                         Welcome! <br>
@@ -43,7 +43,7 @@
                     </h1>
                     <img src="{{ asset('img/logo-miadreams-noir.png') }}" class="logo-welcome" alt="">
                 </div>
-                <div class="">
+                <div class="heri-gauche">
                     <p>Dès son plus jeune âge, Khady SY SAVANE a côtoyé la culture du beau, de l’élégance et d’un art de
                         vivre
                         mêlant ses doubles origines, française et ivoirienne.
@@ -97,15 +97,15 @@
 <section class="">
     <div class="container-fluid welcome ">
         <div class=" row">
-            <div class="col-md-4  px-3 position-relative">
+            <div class="col-md-4 d-flex justify-content-center px-3 position-relative">
                 <img src="img/heri4.jpg" class="img-welcome img-fluid py-4" alt="">
             </div>
             <div class="col-md-8">
                 <div class="welcome-titre">
                     <h1>Hi! <br>I'm Orlane Selena Bouanga</h1>
-                    <img src="{{ asset('img/logo-miadreams-noir.png') }}" class="logo-welcome" alt="">>
+                    <img src="{{ asset('img/logo-miadreams-noir.png') }}" class="logo-welcome" alt="">
                 </div>
-                <div class="">
+                <div class="heri-gauche">
                     <p>Je détiens une licence en droit des affaires délivrée par l'Institut Supérieur de Management
                         (ISM), où je
                         poursuis actuellement mes études en Management de Projet.</p>

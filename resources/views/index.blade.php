@@ -175,7 +175,7 @@
     </div>
 </div>
 <div class="container-fluid home-container-8">
-    <h1>Made In Africa now</h1>
+    <h1>Made In Africa</h1>
 </div>
 
 @include('layouts.footer')

@@ -50,17 +50,17 @@
             <div class="col-md-2 pt-5 ">
                 <h3 class="span-lastica  fs-5">NOUS SUIVRE</h3>
 
-                <a href="https://www.facebook.com/Madeinafricacouture"><img src={{ asset('img/facebook.png') }}
-                        alt="" class=" logo-sociaux img-fluid " alt="" target="_blank"> </a>
+                <a href="https://www.facebook.com/Madeinafricacouture" target="_blank"><img src={{ asset('img/facebook.png') }}
+                        alt="" class=" logo-sociaux img-fluid " alt="" > </a>
 
                 <a href="https://www.instagram.com/miadreams_brand/?hl=fr"  target="_blank"><img src={{ asset('img/instagram.png') }}
-                        alt="" class="logo-sociaux img-fluid " alt="" target="_blank"> </a>
+                        alt="" class="logo-sociaux img-fluid " alt="" "> </a>
 
-                <a href=""><img src={{ asset('img/youtube.png') }} alt="" class="logo-sociaux img-fluid "
-                        alt="" target="_blank"> </a>
+                <a href="https://www.youtube.com/channel/UCwzzX2LzGR3K3Y37wiSDmLw"  target="_blank"><img src={{ asset('img/youtube.png') }} alt="" class="logo-sociaux img-fluid "
+                        alt=""> </a>
 
-                <a href="https://www.linkedin.com/company/ma-petite-robe-en-wax/"><img
-                        src={{ asset('img/logo-linkedin.png') }} alt="" target="_blank" class="logo-sociaux img-fluid "
+                <a href="https://www.linkedin.com/company/ma-petite-robe-en-wax/"  target="_blank"><img
+                        src={{ asset('img/logo-linkedin.png') }} alt="" class="logo-sociaux img-fluid "
                         alt=""> </a>
 
             </div>

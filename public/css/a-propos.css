@@ -6,39 +6,45 @@
     height: 600px;
 
 }
+
 .texte-heri1 {
     font-family: serif;
     color: black;
     font-weight: bold;
 }
-.texte-heri1 h1{
+
+.texte-heri1 h1 {
     font-family: TAN MERINGUE, serif;
     font-size: 30px;
     padding-left: 100px;
 }
-.texte-heri1 h2{
+
+.texte-heri1 h2 {
 
     font-size: 30px;
     padding-left: 100px;
 }
+
 .img-responsive1 {
 
- width: 37%;
- left: 20%;
- top: 0;
- z-index: 3;
+    width: 37%;
+    left: 20%;
+    top: 0;
+    z-index: 3;
 }
 
 .img-responsive2 {
-  width: 37%;
-  left: 45%;
-  top: -55%;
-  z-index: 2;
+    width: 37%;
+    left: 45%;
+    top: -55%;
+    z-index: 2;
 }
-.separation{
+
+.separation {
     width: 50%;
-    margin: 0 30% ;
+    margin: 0 30%;
 }
+
 .texte-heri2 {
     color: #805f27;
     font-size: 20px;
@@ -58,30 +64,34 @@
     width: 400px;
     height: 100%;
 }
-.welcome-titre{
+
+.welcome-titre {
     display: flex;
     justify-content: space-between;
 
 }
 
-.welcome-titre h1{
+.welcome-titre h1 {
     font-family: Great Vibes, serif;
     padding-top: 25px;
     font-size: 55px;
 
 }
+
 .logo-welcome {
     width: 20%;
     height: 20%;
 }
-.welcome-titre img{
+
+.welcome-titre img {
     padding-top: 0;
     margin-top: 0;
 }
 
-.welcome p{
+.welcome p {
     font-family: Glacial Indifference, serif;
 }
+
 .pochette {
     background-image: url("../img/heri5.jpg");
     background-repeat: no-repeat;
@@ -96,13 +106,42 @@
 
 .pochette p {
     font-size: 30px;
-    font-family: Great Vibes,serif;
+    font-family: Great Vibes, serif;
     letter-spacing: 2px;
-    color:black;
-    font-weight: bold;
+    color: black;
 }
 
-.heri-gauche p{
+.heri-gauche p {
     font-family: GlacialIndifference, serif;
 }
 
+@media (max-width: 426px) {
+    .pochette {
+        background-size: contain;
+        height: 300px;
+
+    }
+    .pochette p {
+        font-size: 25px;
+        color: white;
+
+    }
+}
+
+@media (max-width: 376px) {
+    .pochette {
+        height: 250px;
+
+    }
+    .pochette p {
+        font-size: 20px;
+        color: white;
+    }
+}
+
+@media (max-width: 320px) {
+    .pochette {
+        height: 230px;
+
+    }
+}

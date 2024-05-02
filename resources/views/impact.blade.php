@@ -31,11 +31,11 @@
                              alt="">
                         <div class="mt-4">
                             <h2>VALEUR</h2>
-                            <ul>
+                            <ul class="list-unstyled" >
                                 <li>Créativité et innovation</li>
                                 <li>Professionnalisme</li>
                                 <li>Mode responsable</li>
-                                <li> Made In AFrica</li>
+                                <li>Made In AFrica</li>
                             </ul>
                         </div>
                     </div>
@@ -67,8 +67,8 @@
         </div>
     </div>
 </div>
-<div class="impact-2 container">
-    <h1>NOTRE ATELIR DE CONFECTION</h1>
+<div class="impact-2 container mt-5">
+    <h1>NOTRE ATELIER DE CONFECTION</h1>
     <p> Toutes nos créations sont produits en série-limitée dans notre atelier de confection basé au
         Sénégal, afin de maitriser notre production et créer de l’emploi.
         Notre atelier à taille humaine est parfaitement équipée avec des machines de qualité pour ofrir de
@@ -76,7 +76,7 @@
     <div class="container-fluid d-flex justify-content-center align-items-center">
         <img src="{{asset("img/impact.jpg")}}" class="img-fluid w-100"
              alt="Soutenez nos différentes initiatives pour donner accès à la FORMATION">
-        <h2 class="text-center start-50">
+        <h2 class="text-center">
             Un atelier de confection parfaitement équipé
         </h2>
     </div>

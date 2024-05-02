@@ -30,7 +30,7 @@
 </section>
 
 <section class="pt-5">
-    <div class="container-fluid welcome ">
+    <div class="container-fluid welcome">
         <div class=" row">
             <div class="col-md-4 px-3 d-flex justify-content-center position-relative">
                 <img src="img/heri3.jpg" class="img-welcome img-fluid py-4 " alt="">

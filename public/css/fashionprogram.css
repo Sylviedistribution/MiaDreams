@@ -88,4 +88,17 @@
 }
 
 
+@media only screen and (max-width: 425px) {
+    /* Afficher les éléments en colonne */
+    .fashionContainer-4 {
+        background-size: contain;
+        height: 300px;
+
+    }
+
+    .fashionContainer-4 h6 {
+        top: 0;
+        font-size: 7px;
+    }
+}
 

@@ -1,8 +1,17 @@
 /*IMPACT*/
+.culture-entreprise h2{
+    font-family: Lastica, serif;
+    font-weight: bold;
+}
+.culture-entreprise p, .culture-entreprise ul{
+    font-family: Glacial Indifference, serif;
+    font-size: 20px;
+}
 .symbole {
     width: 150px;
     height: 150px;
-    margin-right: 30px;
+    margin: 0 30px 30px 0;
+
 }
 
 .culture-entreprise {
@@ -15,13 +24,36 @@
     font-size: 20px;
 }
 
+.engagements h3{
+    font-family: Lastica, serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.engagements p{
+   font-family: Glacial Indifference, serif;
+}
+
+.impact-2 h1 {
+    font-family: Lastica, serif;
+    font-weight: bold;
+    font-size: 35px;
+    letter-spacing: 3px;
+}
 .impact-2 h2 {
     padding: 30px;
     color: #805e27;
     background-color: #dcdcd4;
     opacity: 0.7;
-    transform: translate(-50%, 200%);
     position: absolute;
+    margin-top: 400px;
+    font-family: Glacial Indifference, serif;
+    letter-spacing: 3px;
+}
+
+.impact-2 p{
+    font-family: Glacial Indifference, serif;
+    font-size: 20px;
 }
 
 .impact-3 {
@@ -30,8 +62,17 @@
     color: #441404
 }
 
-@media (max-width: 376px) {
-    .fashionContainer-2 .titre{
-        font-size: 28px;
+
+@media (max-width: 426px) {
+    .impact-2 h1 {
+        font-size: 25px;
+    }
+    .impact-2 h2{
+        font-size: 18px;
+        margin: 130px 30px 0 30px;
+        padding: 0;
     }
 }
+
+
+

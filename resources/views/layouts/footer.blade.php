@@ -1,5 +1,5 @@
 <footer>
-    <div class="container-fluid">
+    <div class="container-fluid bg-light mt-5" >
         <div class="row gap-3 text-center ">
             <div class="col-md-2 ">
                 <img src={{ asset('img/logo-miadreams-noir.png') }} alt="logo_footer" class="img-fluid" width="auto"

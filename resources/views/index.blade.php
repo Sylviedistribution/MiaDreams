@@ -62,7 +62,7 @@
 <div class="container">
     <div class="home-container-4">
         <div class="image-container black">
-            <img id="home-image2" src="{{asset("img/home-image2.jpg")}}" alt="">
+            <img id="home-image2" src="{{asset("img/index/home-image2.jpg")}}" alt="">
             <div class="image-text">
                 <h5>DECOUVREZ</h5>
                 <p>Mia Dreams Brand</p>
@@ -70,7 +70,7 @@
             <p class="description">Notre ligne de vêtements</p>
         </div>
         <div class="image-container-2 brown">
-            <img id="home-image3" src="{{asset("img/home-image3.jpg")}}" alt="">
+            <img id="home-image3" src="{{asset("img/index/home-image3.jpg")}}" alt="">
             <div class="image-text">
                 <h5>DECOUVREZ</h5>
                 <p>Ma Petite Robe En Wax</p>
@@ -78,7 +78,7 @@
             <p class="description">Notre application mobile</p>
         </div>
         <div class="image-container red">
-            <img id="home-image4" src="{{asset("img/home-image4.jpg")}}" alt="">
+            <img id="home-image4" src="{{asset("img/index/home-image4.jpg")}}" alt="">
             <div class="image-text">
                 <h5>DECOUVREZ</h5>
                 <p>Fashion Program</p>
@@ -93,7 +93,7 @@
     <!-- Image de l'offre -->
     <div class="row">
         <div class="col-md-5">
-            <img id="home-image5" class="img-fluid" src="{{asset("img/home-image5.jpg")}}" alt="">
+            <img id="home-image5" class="img-fluid" src="{{asset("img/index/home-image5.jpg")}}" alt="">
         </div>
         <div class="section-text col-md-7">
             <div class="titre1">
@@ -146,7 +146,7 @@
         </div>
         <div class="col-md-5">
             <!-- Image illustrant la m1ode éthique -->
-            <img id="home-image6" class="img-fluid" src="{{asset("img/home-image6.jpg")}}" alt="">
+            <img id="home-image6" class="img-fluid" src="{{asset("img/index/home-image6.jpg")}}" alt="">
         </div>
 
     </div>
@@ -154,7 +154,7 @@
 </div>
 
 <div class="container home-container-7">
-    <img id="home-image7" class="img-fluid w-100" src="{{asset("img/home-image7.webp")}}" alt="">
+    <img id="home-image7" class="img-fluid w-100" src="{{asset("img/index/home-image7.webp")}}" alt="">
 
     <div>
         <h6><strong>NOS DERNIERS ARTICLES DE <span>BLOG</span></strong></h6><br>

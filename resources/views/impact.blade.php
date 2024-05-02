@@ -5,7 +5,7 @@
             <ul class="list-unstyled">
                 <li>
                     <div class="culture-entreprise">
-                        <img src="{{asset("img/symbole1.png")}}" class="symbole img-fluid"
+                        <img src="{{asset("img/impact/symbole1.png")}}" class="symbole img-fluid"
                              alt="">
                         <div class="mt-4">
                             <h2>MISSION</h2>
@@ -16,7 +16,7 @@
                 </li>
                 <li>
                     <div class="culture-entreprise">
-                        <img src="{{asset("img/symbole2.png")}}" class="symbole img-fluid"
+                        <img src="{{asset("img/impact/symbole2.png")}}" class="symbole img-fluid"
                              alt="">
                         <div class="mt-4">
                             <h2>VISION</h2>
@@ -27,7 +27,7 @@
                 </li>
                 <li>
                     <div class="culture-entreprise">
-                        <img src="{{asset("img/symbole3.png")}}" class="symbole img-fluid"
+                        <img src="{{asset("img/impact/symbole3.png")}}" class="symbole img-fluid"
                              alt="">
                         <div class="mt-4">
                             <h2>VALEUR</h2>
@@ -74,7 +74,7 @@
         Notre atelier à taille humaine est parfaitement équipée avec des machines de qualité pour ofrir de
         belles finition.</p>
     <div class="container-fluid d-flex justify-content-center align-items-center">
-        <img src="{{asset("img/impact.jpg")}}" class="img-fluid w-100"
+        <img src="{{asset("img/impact/impact.jpg")}}" class="img-fluid w-100"
              alt="Soutenez nos différentes initiatives pour donner accès à la FORMATION">
         <h2 class="text-center">
             Un atelier de confection parfaitement équipé
@@ -84,7 +84,7 @@
 </div>
 <div class="impact-3 container">
     <h1 class="display-4 text-center" >UNE MODE RESPONSABLE</h1>
-    <img src="{{asset("img/impact1.jpg")}}" class="img-fluid w-100"
+    <img src="{{asset("img/impact/impact1.jpg")}}" class="img-fluid w-100"
          alt="">
 </div>
 @include('layouts.footer')

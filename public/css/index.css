@@ -1,6 +1,6 @@
 /*Section home-container 1*/
 .home-container-1 {
-    background-image: url("../img/home-image1.jpg");
+    background-image: url("../img/index/home-image1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -282,7 +282,7 @@
 
 
 .home-container-8 {
-    background-image: url("../img/home-image8.jpg");
+    background-image: url("../img/index/home-image8.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 600px; /* Hauteur minimale de votre conteneur */
@@ -333,6 +333,11 @@
         height: 400px;
     }
 
+    .home-container-8 h1 {
+        font-size: 25px;
+        margin-bottom: 50px;
+    }
+
 }
 
 @media (max-width: 376px) {
@@ -347,10 +352,12 @@
         padding: 10px 40px;
     }
 
-
-
     .home-container-8 {
         height: 390px;
+    }
+
+    .home-container-8 h1 {
+        margin-bottom: 80px;
     }
 
 }

@@ -11,10 +11,10 @@
             <div class="col-md-8 py-5 position-relative">
                 <div class="row">
                     <div class="col-md-6">
-                        <img src="img/heri1.jpg" class=" position-absolute img-fluid img-responsive1" alt="">
+                        <img src="{{asset("img/apropos/heri1.jpg")}}" class=" position-absolute img-fluid img-responsive1" alt="">
                     </div>
                     <div class="  col-md-6 ">
-                        <img src="img/heri2.jpeg" class=" pt-5 position-absolute img-fluid img-responsive2"
+                        <img src="{{asset("img/apropos/heri2.jpeg")}}" class=" pt-5 position-absolute img-fluid img-responsive2"
                             alt="">
                     </div>
                 </div>
@@ -33,7 +33,7 @@
     <div class="container-fluid welcome">
         <div class=" row">
             <div class="col-md-4 px-3 d-flex justify-content-center position-relative">
-                <img src="img/heri3.jpg" class="img-welcome img-fluid py-4 " alt="">
+                <img src="{{asset("img/apropos/heri3.jpg")}}" class="img-welcome img-fluid py-4 " alt="">
             </div>
             <div class="col-md-8">
                 <div class="welcome-titre">
@@ -41,7 +41,7 @@
                         Welcome! <br>
                         I'm Khady Sy Savané
                     </h1>
-                    <img src="{{ asset('img/logo-miadreams-noir.png') }}" class="logo-welcome" alt="">
+                    <img src="{{asset("img/logo-miadreams-noir.png") }}" class="logo-welcome" alt="">
                 </div>
                 <div class="heri-gauche">
                     <p>Dès son plus jeune âge, Khady SY SAVANE a côtoyé la culture du beau, de l’élégance et d’un art de
@@ -98,12 +98,12 @@
     <div class="container-fluid welcome ">
         <div class=" row">
             <div class="col-md-4 d-flex justify-content-center px-3 position-relative">
-                <img src="img/heri4.jpg" class="img-welcome img-fluid py-4" alt="">
+                <img src="{{asset("img/apropos/heri4.jpg")}}" class="img-welcome img-fluid py-4" alt="">
             </div>
             <div class="col-md-8">
                 <div class="welcome-titre">
                     <h1>Hi! <br>I'm Orlane Selena Bouanga</h1>
-                    <img src="{{ asset('img/logo-miadreams-noir.png') }}" class="logo-welcome" alt="">
+                    <img src="{{asset("img/logo-miadreams-noir.png") }}" class="logo-welcome" alt="">
                 </div>
                 <div class="heri-gauche">
                     <p>Je détiens une licence en droit des affaires délivrée par l'Institut Supérieur de Management

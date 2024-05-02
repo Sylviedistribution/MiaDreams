@@ -23,11 +23,11 @@
 }
 .bg-img-3{
     width: 100%;
-    height: 70vh;
+    height: 400px;
 }
 .pb-opacity-3{
     top: 25%;
-    left: 13%;
+    left: 10%;
     width: 80%;
     height: 40vh;
     background-color: #903a1c;
@@ -48,43 +48,9 @@
     font-family: Lastica, serif;
 }
 
-
-.bg-img-2{
-    width: 100%;
-    height: 70vh;
-
-}
-
-.pb-btn{
-    background-color: #481c14;
-    color: white;
-    border: none;
-    width: 50%;
-    border-radius: 20px;
-    font-size: 20px;
-    font-weight: bold;
-    justify-content: center;
-    text-align: center;
-}
-.bg-beige{
-    background-color: rgb(210, 205, 205);
-<<<<<<< HEAD
- }
- .bg-img-4{
-    width: 70%;
-    height: 550px;
- }
-=======
-}
-.bg-img-4{
-    width: 100%;
-    height: 102vh;
-}
->>>>>>> ba38f2c01cb5878ee7f0fc42bbb4a1ec9233c8cb
-
 .pb-opacity-2{
-    top: 35%;
-    left: 12%;
+    top: 25%;
+    left: 10%;
     width: 80%;
     height: 40vh;
     background-color: #903a1c;
@@ -94,24 +60,22 @@
     text-align: center;
     justify-content: center;
 }
+.bg-img-2{
+    width: 100%;
+    height: 400px;
+
+}
 .align-middle{
     display: flex;
     justify-content: center;
 }
-.pb-logo-mia{
-<<<<<<< HEAD
-    width: 100px;
-=======
-    width: 30%;
->>>>>>> ba38f2c01cb5878ee7f0fc42bbb4a1ec9233c8cb
-}
 .bg-img-1{
     width: 100%;
-    height: 70vh;
+    height: 520px;
 }
 .pb-opacity-1{
-    top: 64%;
-    left: 22%;
+    top: 60%;
+    left: 15%;
     width: 70%;
     height: 30vh;
     background-color: #903a1c;
@@ -120,60 +84,41 @@
     font-weight: bold;
     text-align: center;
     justify-content: center;
-<<<<<<< HEAD
- }
- .btn-bronchure-3 {
-    top: 60%;
-    left: 26%;
+}
+.logo-1{
     width: 50%;
-    height: 40px;
+}
+.pb-btn{
     background-color: #481c14;
-=======
+    color: white;
+    border: none;
+    width: 60%;
+    border-radius: 20px;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+}
+.bg-beige{
+    background-color: rgb(210, 205, 205);
+}
+.pb-logo-mia{
+    width: 50%;
+}
+.bg-img-4{
+    width: 100%;
+    height: 515px;
 }
 .btn-brochure-3 {
-    top: 58%;
-    left: 30%;
-    width: 40%;
+    top: 65%;
+    left: 25%;
+    width: 50%;
     background-color: #903a1c;
->>>>>>> ba38f2c01cb5878ee7f0fc42bbb4a1ec9233c8cb
     color: white;
     border-radius: 50px;
     border: 1px solid black;
     font-size: 10px;
     font-weight: bold;
     text-align: center;
-<<<<<<< HEAD
-    font-family: Lastica;
- }
- 
- .btn-bronchure-2{
-    top: 55%;
-     left: 15%;
-     width: 75%;
-     height: 20px;
-     background-color: #481c14;
-     color: white;
-     border: none;
-     border-radius: 50px;
-     font-size: 13px; 
-     font-weight: bold;
-     text-align: center;
-     font-family: Lastica;
-  }
-  .bg-img-5{
-     width: 100%;
-     height: 400px;
-
-  }
-  
-
- .bg-img-6{
-    width: 100%;
-    height: 400px;
- }
- .btn-bronchure-1{
-    top: 55%;
-=======
     font-family: Lastica, serif;
     letter-spacing: 3px;
     text-decoration: none;
@@ -183,8 +128,7 @@
 
 .btn-brochure-2{
     top: 45%;
->>>>>>> ba38f2c01cb5878ee7f0fc42bbb4a1ec9233c8cb
-    left: 15%;
+    left: 13%;
     width: 75%;
     background-color: #903a1c;
     color: white;
@@ -200,14 +144,14 @@
 
 .bg-img-5{
     width: 100%;
-    height: 100vh;
+    height: 500px;
 }
 
 
 
 .btn-brochure-1{
     top: 45%;
-    left: 15%;
+    left: 13%;
     width: 75%;
     background-color: #903a1c;
     color: white;
@@ -223,6 +167,5 @@
 
 .bg-img-6{
     width: 100%;
-    height: 100%;
+    height: 500px;
 }
-

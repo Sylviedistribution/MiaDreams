@@ -50,7 +50,7 @@
 
 .img1 {
     position: relative;
-    left: 977px;
+    left: 930px;
     bottom: 100px;
     width: 250px;
     height: 350px;
@@ -61,8 +61,8 @@
 
 .img2 {
     position: relative;
-    left: 400px;
-    bottom: 65px;
+    left: 370px;
+    bottom: 50px;
     width: 300px;
     height: 390px;
     background-color: black;
@@ -146,7 +146,7 @@
 
 /* section nouvelle gamme */
 .gamme {
-    margin-top: 150px;
+    margin-top: 210px;
 }
 
 .N-gamme-title {
@@ -163,6 +163,8 @@
 .N-gamme {
     display: flex;
     justify-content: center;
+    margin-top: 30px;
+    gap: 30px;
 }
 
 
@@ -182,13 +184,18 @@
 
 }
 
-@media (max-width: 1024px) {
-    .collection {
-        gap: 50px;
-        background-color: #E8E3DE;
-        /* padding: 20px; */
-        width: 100%;
-        height: 160vh;
+@media (max-width: 1024px ) {
+
+
+
+    .header1 h1 {
+        background-color: rgba(255, 255, 255, 0.5);
+        width: 300px;
+       
+    }
+   
+    .collection-title {
+      display: none;
     }
 }
 
@@ -270,16 +277,18 @@
         width: 100%;
     }
 
+   
+
     .N-gamme-title {
         text-align: center;
         position: relative;
-        top: 300px;
+        top: 500px;
 
     }
 
     .N-gamme {
         position: relative;
-        top: 400px;
+        top: 470px;
         height: auto;
     }
 

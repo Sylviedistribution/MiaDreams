@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{ asset('css/bootstrap.css')}}">
 
-    <link rel="stylesheet" href="{{ asset('css/header.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/header-footer.css') }}">
     <link rel="stylesheet" href="{{ asset('css/index.css') }}">
     <link rel="stylesheet" href="{{ asset('css/modal.css') }}">
 
@@ -63,7 +63,7 @@
                             <img src="{{ asset('img/logo_MIA.png') }}" class="logo-img img-fluid " alt="logo">
                         </a>
                     </li>
-                    <li class="ligne nav-item dropdown mx-4 ">
+                    <li class="ligne nav-item dropdown mx-4">
                         <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button"
                            data-bs-toggle="dropdown" aria-expanded="false">
                             JOURNAL

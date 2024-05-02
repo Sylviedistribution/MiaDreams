@@ -19,7 +19,7 @@
         <!-- Section gauche -->
         <div class="sectionLeft col-md-6">
             <h1 class="titre text-center mb-4">MISE EN OEUVRE DU PROGRAMME DE FORMATION</h1>
-            <img src="{{asset("img/fashionProgram-image1.png")}}" class="img-fluid w-100"
+            <img src="{{asset("img/fashionprogram/fashionProgram-image1.png")}}" class="img-fluid w-100"
                  alt="Mise en œuvre du programme de formation">
         </div>
         <!-- Section droite -->
@@ -63,15 +63,15 @@
         <div class="col-md-7">
             <table class="col-md-12">
                 <tr>
-                    <td><img src="{{asset("img/fashionProgram-image2.jpg")}}" class="img-fluid w-100 p-2"
+                    <td><img src="{{asset("img/fashionprogram/fashionProgram-image2.jpg")}}" class="img-fluid w-100 p-2"
                              alt="Design Ton Bubu 1"></td>
-                    <td><img src="{{asset("img/fashionProgram-image3.jpg")}}" class="img-fluid w-100 p-2"
+                    <td><img src="{{asset("img/fashionprogram/fashionProgram-image3.jpg")}}" class="img-fluid w-100 p-2"
                              alt="Design Ton Bubu 2"></td>
                 </tr>
                 <tr>
-                    <td><img src="{{asset("img/fashionProgram-image4.jpg")}}" class="img-fluid w-100 p-2"
+                    <td><img src="{{asset("img/fashionprogram/fashionProgram-image4.jpg")}}" class="img-fluid w-100 p-2"
                              alt="Design Ton Bubu 3"></td>
-                    <td><img src="{{asset("img/fashionProgram-image5.jpg")}}" class="img-fluid w-100 p-2"
+                    <td><img src="{{asset("img/fashionprogram/fashionProgram-image5.jpg")}}" class="img-fluid w-100 p-2"
                              alt="Design Ton Bubu 4"></td>
                 </tr>
             </table>
@@ -102,7 +102,7 @@
 
 <!-- Section "Soutenez nos différentes initiatives pour donner accès à la FORMATION" -->
 <div class="fashionContainer-4 container-fluid position-relative">
-    <!--<img src="{{asset("img/fashionProgram-image6.jpg")}}" class="img-fluid w-100"
+    <!--<img src="{{asset("img/fashionprogram/fashionProgram-image6.jpg")}}" class="img-fluid w-100"
          alt="Soutenez nos différentes initiatives pour donner accès à la FORMATION">-->
     <div class="position-absolute top-0 start-50 translate-middle-x text-center mt-3"
          style="transform: translateX(-50%);">

@@ -33,7 +33,7 @@
                     </h2>
                 </div>
 
-                <div class="pt-5">
+                <div class="pt-2">
                     <p> Au-delà d'une simple entreprise ou d'une
                         marque de vêtements, nous incarnons un
                         univers contemporain de la mode africaine.
@@ -133,8 +133,8 @@
                 <p class="paragraphe"> Chez Mia Dreams and Co, notre engagement envers une mode éthique et responsable
                     est
                     au
-                    cœur de notre
-                    / identité. Nous croyons fermement que la mode peut être une force positive, contribuant non
+                    cœur de notre identité. Nous croyons fermement que la mode peut être une force positive, contribuant
+                    non
                     seulement à
                     votre
                     style, mais également au bien-être de la planète et de ses habitants.

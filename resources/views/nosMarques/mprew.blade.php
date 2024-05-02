@@ -29,6 +29,6 @@
         <source src="{{ asset('video/nos-tissus.mp4') }}" type="video/mp4">
         Votre navigateur ne prend pas en charge la balise vidéo.
     </video>
-    <img src="{{ asset('img/processus.jpg') }}" alt="" class="img-mprew ">
+    <img src="{{ asset('img/mprew/processus.jpg') }}" alt="" class="img-mprew ">
 </div>
 @include('layouts.footer')

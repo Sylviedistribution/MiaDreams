@@ -88,7 +88,7 @@
 }
 
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 426px) {
     /* Afficher les éléments en colonne */
     .fashionContainer-4 {
         background-size: contain;

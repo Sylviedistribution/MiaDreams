@@ -2,20 +2,22 @@
 
 <section>
     <div class="container-fluid heritage">
-        <div class="row  py-5">
-            <div class="col-md-4  pt-4 texte-heri1">
+        <div class="row py-5 couture">
+            <div class="col-md-4  texte-heri1">
                 <h1 class="">Maison de couture</h1>
                 <h2 class="pt-2">De Père en Fille</br>
                     depuis 1966</h2>
             </div>
-            <div class="col-md-8 py-5 position-relative">
+            <div class="col-md-8 position-relative pere-fille">
                 <div class="row">
                     <div class="col-md-6">
-                        <img src="{{asset("img/apropos/heri1.jpg")}}" class=" position-absolute img-fluid img-responsive1" alt="">
+                        <img src="{{asset("img/apropos/heri1.jpg")}}"
+                             class=" position-absolute img-fluid img-responsive1" alt="">
                     </div>
-                    <div class="  col-md-6 ">
-                        <img src="{{asset("img/apropos/heri2.jpeg")}}" class=" pt-5 position-absolute img-fluid img-responsive2"
-                            alt="">
+                    <div class="col-md-6 ">
+                        <img src="{{asset("img/apropos/heri2.jpeg")}}"
+                             class=" pt-5 position-absolute img-fluid img-responsive2"
+                             alt="">
                     </div>
                 </div>
 

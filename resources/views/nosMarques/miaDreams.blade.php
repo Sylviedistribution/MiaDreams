@@ -47,15 +47,12 @@
     </div>
 </div>
 
-<div class="container container-button">
-    <div class="button"> Eshop en cours de construction</div>
-</div>
+
 
 <!-- section  nouvelle gamme=====  -->
 
 <div class="gamme container">
-    <p class="N-gamme-title">NOUVELLE GAMME 100% COTON, ET TISSU TEINTE A LA AMIN</p>
-
+    <p class="N-gamme-title">NOUVELLE GAMME 100% COTON, ET TISSUS TEINTS A LA MAIN</p>
     <div class="N-gamme">
         <div>
             <img src="{{asset("img/miadreams/img6.jpg")}}" class="N-gamme-img" alt="">
@@ -67,7 +64,6 @@
             <img src="{{asset("img/miadreams/img8.jpg")}}" class="N-gamme-img" alt="">
         </div>
     </div>
-
 </div>
 
 @include("layouts.footer")

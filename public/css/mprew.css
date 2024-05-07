@@ -8,19 +8,6 @@
     display: flex;
 }
 
-.date-annonce {
-    padding: 10px 20px;
-    margin-left: 40px;
-    width: 250px;
-    height: 150px;
-    font-family: Lastica, serif;
-    background-color: #481c14;
-    color: white;
-    translate: 50% 500px;
-    text-align: end;
-    font-size: 25px;
-    position: relative;
-}
 
 .mprew-container-2 {
     display: flex;
@@ -40,7 +27,7 @@
     font-family: Glacial Indifference, serif;
 }
 
-.mprew-container-3 video , .img-mprew{
+.mprew-container-3 video, .img-mprew {
     width: 240px;
     height: 300px;
     margin: 20px 0 20px 20px;
@@ -68,4 +55,23 @@
 }
 
 
+@media (max-width: 426px) {
+    .mprew-container-1 {
+        background-size: contain;
+        height: 214px;
+    }
+
+}
+
+@media (max-width: 376px) {
+    .mprew-container-1 {
+        height: 189px;
+    }
+}
+
+@media (max-width: 320px) {
+    .mprew-container-1 {
+        height: 161px;
+    }
+}
 

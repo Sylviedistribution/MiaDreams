@@ -7,7 +7,7 @@
                      height="auto">
             </div>
             <div class="col-md-2 pt-5 sec">
-                <h3 class="span-lastica  fs-5">INFORMATIONS</h3>
+                <h2 class="titre-lastica fs-6">INFORMATIONS</h2>
                 <div class="fw-bolder span-ind">
                     <a>
                         <p class="">Newsletter</p>
@@ -21,7 +21,7 @@
                 </div>
             </div>
             <div class="col-md-2 pt-5 sec">
-                <h3 class="span-lastica  fs-5">NOS MARQUES</h3>
+                <h2 class="titre-lastica fs-6">NOS MARQUES</h2>
                 <div class="fw-bolder span-ind">
                     <a href="{{ route('miaDreams') }}" class="text-decoration-none text-black link-danger">
                     <p class="">Mia Dreams</p>
@@ -40,7 +40,7 @@
             </div>
 
             <div class="col-md-2 pt-5 sec">
-                <h3 class="span-lastica  fs-5">CONTACTEZ NOUS</h3>
+                <h2 class="titre-lastica fs-6">CONTACTEZ NOUS</h2>
                 <div class="fw-bolder span-ind">
                     <p class="">3 rue Bégenger Ferraud; <br>au sein de CTIC DAKAR</p>
 
@@ -49,7 +49,7 @@
 
             </div>
             <div class="col-md-2 pt-5 sec">
-                <h3 class="span-lastica  fs-5">NOUS SUIVRE</h3>
+                <h2 class="titre-lastica fs-6">NOUS SUIVRE</h2>
 
                 <a href="https://www.facebook.com/Madeinafricacouture" target="_blank">
                     <img src="{{ asset('img/footer/facebook.png') }}"

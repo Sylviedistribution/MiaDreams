@@ -1,11 +1,7 @@
 @include('layouts.header')
 
 <div class="container-fluid mprew-container-1 ">
-    <div class="top-0  translate-middle text-end date-annonce">
-        <p>CREATE</p>
-        <p>FASHION</p>
-        <p>TOGETHER</p>
-    </div>
+
 </div>
 <div class="container mprew-container-2 ">
     <div class="video-presentation-1">

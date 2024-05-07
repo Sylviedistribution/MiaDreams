@@ -54,6 +54,10 @@
     width: 50%;
 }
 
+.titre-lastica{
+    font-family: Lastica, serif;
+}
+
 footer a, footer p{
     font-family: Glacial Indifference, serif;
 }

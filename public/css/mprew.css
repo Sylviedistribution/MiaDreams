@@ -1,6 +1,6 @@
 /*Ma petite robe en en wax*/
 .mprew-container-1 {
-    background-image: url("../img/mprew/mprew-image1.jpg");
+    background-image: url("../img/mprew/mprew-image.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -62,6 +62,14 @@
     }
 
 }
+
+@media (max-width: 408px) {
+
+    .mprew-container-1 {
+        height: 205px;
+    }
+}
+
 
 @media (max-width: 376px) {
     .mprew-container-1 {

@@ -178,6 +178,14 @@
         height: 240px;
     }
 }
+
+@media (max-width: 408px) {
+
+    .pb-bg{
+        height: 230px;
+    }
+}
+
 @media (max-width: 376px) {
     .pb-bg{
         height: 212px;

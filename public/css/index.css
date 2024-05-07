@@ -8,6 +8,7 @@
     color: white;
 
 }
+
 .home-container-1 .info {
     color: white;
     font-family: Lastica, serif;
@@ -25,7 +26,7 @@
 .info h4 {
     color: white;
     word-spacing: 10px;
-    padding-left:5%;
+    padding-left: 5%;
 
 }
 
@@ -42,7 +43,7 @@
     font-size: 20px;
 }
 
-.video iframe{
+.video iframe {
     width: 100%;
     height: 400px;
     max-height: 100%;
@@ -60,6 +61,7 @@
     text-align: center;
     font-size: 50px;
 }
+
 /*Section home-container 4*/
 
 .home-container-4 {
@@ -222,7 +224,7 @@
 
 }
 
-.titre2 p{
+.titre2 p {
     font-family: Lastica, serif;
     font-size: 30px;
 
@@ -236,7 +238,7 @@
     text-align: center;
 }
 
-.paragraphe{
+.paragraphe {
     font-size: 25px;
     font-family: Glacial Indifference, serif;
 
@@ -308,6 +310,7 @@
         background-size: contain;
         height: 285px;
     }
+
     .info h1 {
         font-size: 15px;
         padding-top: 25%;
@@ -319,13 +322,12 @@
     }
 
 
-
     #home-image3 {
         width: 300px;
         height: 300px;
     }
 
-    .home-container-3 p, .home-container-2 h2{
+    .home-container-3 p, .home-container-2 h2 {
         font-size: 40px;
     }
 
@@ -342,15 +344,26 @@
 
 }
 
+@media (max-width: 408px) {
+
+    .home-container-1 {
+        height: 272px;
+    }
+}
+
+
+
+
 @media (max-width: 376px) {
     .home-container-1 {
         height: 251px;
     }
-    .home-container-3 p, .home-container-2 h2{
+
+    .home-container-3 p, .home-container-2 h2 {
         font-size: 30px;
     }
 
-    .home-container-5 a, .home-container-6 a  {
+    .home-container-5 a, .home-container-6 a {
         padding: 10px 40px;
     }
 
@@ -374,12 +387,14 @@
     }
 
 }
+
 @media only screen and (max-width: 1226px) {
     /* Afficher les éléments en colonne */
     .home-container-4 {
         flex-direction: column;
         align-items: center; /* Centrer les éléments horizontalement */
     }
+
     .image-container-2::before {
         height: calc(70%);
     }

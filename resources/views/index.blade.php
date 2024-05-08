@@ -1,5 +1,5 @@
 @include('layouts.header')
-
+@section('title', 'Titre de la page 1')
 <!-- Section "Bannière" -->
 <section>
     <div class="home-container-1">

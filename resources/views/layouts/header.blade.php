@@ -50,11 +50,11 @@
                             NOS MARQUES
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href={{ route('miaDreams') }}>MIA DREAMS</a></li>
                             <li><a class="dropdown-item" href="{{ route('mprew') }}">MPREW</a></li>
+                            <li><a class="dropdown-item" href={{ route('miaDreams') }}>MIA DREAMS</a></li>
+                            <li><a class="dropdown-item" href={{ route('fashionProgram') }}>FASHION PROGRAM</a>
                             <li><a class="dropdown-item" href="{{ route('personalBranding') }}">PERSONAL
                                     BRANDING</a></li>
-                            <li><a class="dropdown-item" href={{ route('fashionProgram') }}>FASHION PROGRAM</a>
                         </ul>
 
                     </li>

@@ -51,12 +51,13 @@
                         mêlant ses doubles origines, française et ivoirienne.
                         Née d’un père couturier, styliste, modéliste diplômé de l’académie internationale de coupe
                         LADEVEZE
-                        ROUSSEL & J.DARROUX en 1966, porter de beau vêtement était avant tout une marque de respect.</p>
-                    <p>Entreprendre dans le secteur de la mode c’est fait comme une évidence, un héritage familial et
+                        ROUSSEL & J.DARROUX en 1966, porter de beaux vêtements était avant tout une marque de
+                        respect.</p>
+                    <p>Entreprendre dans le secteur de la mode, c’est fait comme une évidence, un héritage familial et
                         culturel,
                         qui s’est transformé en passion. Son parcours atypique dans la vente, la police, et 10 années
                         dans
-                        l’hôtellerie et la restauration haut de gamme ont développés sa persévérance, son goût du luxe,
+                        l’hôtellerie et la restauration haut de gamme ont développé sa persévérance, son goût du luxe,
                         de
                         l’étiquette, du savoir-vivre et de la gastronomie.</p>
                     <p>
@@ -65,7 +66,7 @@
                         Sénégal, elle a créé sa startup en 2020, spécialisée dans la confection de produits artisanaux
                         et le
                         digital.
-                        La marque Mia Dreams créé en 2011, propose une ligne de vêtements féminins spécialement dédiée
+                        La marque Mia Dreams créée en 2011, propose une ligne de vêtements féminins spécialement dédiée
                         aux
                         femmes cadres, dirigeantes et intellectuelles. Son esprit innovant s'est concrétisé à travers le
                         projet
@@ -114,7 +115,7 @@
                     <p>Je me suis lancée dans le projet “ma petite robe en wax” par amour pour la découverte de la
                         couture et
                         l’aspect innovant du projet. Ce projet et la personne qui le portait m’ont plu et depuis lors,
-                        me voila
+                        me voilà
                         dans l’aventure.</p>
                     <p>Au sein de notre Fashion Program, j'ai assumé le rôle de gestionnaire de projets. Mes
                         responsabilités
@@ -122,8 +123,8 @@
                         planification des
                         intervenants et des apprenants, ainsi que la supervision de leur emploi du temps.</p>
                     <p>L’entreprenariat est un véritable engagement pour moi et une source d’épanouissement. Je
-                        m’enrichie
-                        chaque jour face au nouveau défis et aux challenges.</p>
+                        m’enrichis
+                        chaque jour face aux nouveaux défis et aux challenges.</p>
                 </div>
 
             </div>

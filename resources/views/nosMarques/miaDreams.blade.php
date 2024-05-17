@@ -22,7 +22,7 @@
         <p>Toutes nos créations sont éditées en petites séries pour satisfaire <br> les adeptes d’exclusivité. Nous
             proposons des pièces modernes, <br> sophistiquées, élégantes et confortables.</p>
         <p>Mia signifie Made In AFrica, une volonté pour nous de promouvoir notre <br> culture et les savoir-faire des
-            artisans. A cet effet nous produisons <br> toutes nos créations dans notre atelier au Sénégal depuis 2013.
+            artisans. A cet effet, nous produisons <br> toutes nos créations dans notre atelier au Sénégal depuis 2013.
         </p>
     </div>
 </div>

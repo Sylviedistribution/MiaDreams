@@ -11,11 +11,11 @@
 </div>
 <div class="container mprew-container-3 ">
     <p>
-        Ma petite robe en wax est la première application mobile de cocréation entre la cliente et son artisan, qui
+        Ma petite robe en wax est la première application mobile de co-création entre la cliente et son artisan, qui
         permet de créer et de personnaliser sa robe en quelques clics.
         <br><br>
-        A partir d’un avatar 3D et une multitude d’option quant aux chois du tissu, des manches, de l’encolure, vous
-        pouvez créer votre robe. Vous serez livré sous 3 semaines
+        A partir d’un avatar 3D et une multitude d’options quant aux choix du tissu, des manches, de l’encolure, vous
+        pouvez créer votre robe. Vous serez livré sous 3 semaines.
     </p>
     <video width="150" height="200" controls>
         <source src="{{ asset('video/presentation-mprew.mp4') }}" type="video/mp4">

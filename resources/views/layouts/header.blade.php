@@ -71,7 +71,7 @@
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li class=""><a class="dropdown-item" href="{{ route('apropos') }}">A PROPOS</a>
                             </li>
-                            <li><a class="dropdown-item" href="">BLOG</a></li>
+                            <li><a class="dropdown-item" href="https://otentikmia.wixsite.com/blog/accueil">BLOG</a></li>
                         </ul>
 
                     </li>

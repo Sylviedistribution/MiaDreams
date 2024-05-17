@@ -218,6 +218,15 @@
 
 }
 
+@media (max-width: 1398px) {
+    .texte-uni {
+        top: 40px;
+        font-size: 19px;
+
+    }
+
+}
+
 @media (max-width: 1024px ) {
 
 

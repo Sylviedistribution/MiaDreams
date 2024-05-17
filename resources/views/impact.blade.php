@@ -69,10 +69,10 @@
 </div>
 <div class="impact-2 container mt-5">
     <h1>NOTRE ATELIER DE CONFECTION</h1>
-    <p> Toutes nos créations sont produits en série-limitée dans notre atelier de confection basé au
-        Sénégal, afin de maitriser notre production et créer de l’emploi.
-        Notre atelier à taille humaine est parfaitement équipée avec des machines de qualité pour ofrir de
-        belles finition.</p>
+    <p> Toutes nos créations sont produites en série limitée dans notre atelier de confection basé au
+        Sénégal, afin de maîtriser notre production et de créer de l’emploi.
+        Notre atelier à taille humaine est parfaitement équipé avec des machines de qualité pour offrir de
+        belles finitions.</p>
     <div class="container-fluid d-flex justify-content-center align-items-center">
         <img src="{{asset("img/impact/impact.jpg")}}" class="img-fluid w-100"
              alt="Soutenez nos différentes initiatives pour donner accès à la FORMATION">

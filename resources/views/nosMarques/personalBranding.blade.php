@@ -86,7 +86,7 @@
             <div class="col-md-7">
                 <p class="fs-5 pt-5 ps-3 para-indif">
                     MIA DREAMS PERSONAL BRANDING & ETIQUETTE est notre catalogue qui a
-                    pour objectif de présenter les nouvelles collections de la marque de une
+                    pour objectif de présenter les nouvelles collections de la marque d'une
                     façon originale de vous présenter nos créations autour d'un art de vivre
                     d'une Afrique contemporaine, et de partager notre univers créatif
                     accompagné de petits articles, de citations, de conseils et astuces bien-être.

@@ -30,7 +30,7 @@
                     se perfectionner, acquérir de nouvelles compétences, et pénétrer le marché national et
                     international. La première cohorte sera au nombre de 12 apprenants, dont 50% de femmes, qui
                     bénéficieront d’une formation pratique de 16 semaines au sein de l’Entreprise Mia Dreams and Co. Le
-                    projet a délibérément choisi un petit nombre d’apprenant afin de nous assurer de la qualité, de la
+                    projet a délibérément choisi un petit nombre d’apprenants afin de nous assurer de la qualité, de la
                     bonne compréhension et exécution de l’ensemble des modules dispensés lors du programme.
                 </p>
                 <p>
@@ -45,7 +45,7 @@
                     <li>288 Heures de Formation en littératie et Marketing digital</li>
                     <li>24 Heures de Formation en conseil en image et relation client</li>
                     <li>10 Heures de Formation en communication, prise de parole en public et leadership</li>
-                    <li>70 Heures de teintures textile</li>
+                    <li>70 Heures de teintures textiles</li>
                     <li>20 Heures de broderies perlées</li>
                 </ul>
             </div>

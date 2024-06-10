@@ -136,7 +136,7 @@
                     non
                     seulement à
                     votre
-                    style, mais également au bien-être de la planète et de ses habitant.
+                    style, mais également au bien-être de la planète et de ses habitants.
                 </p>
             </div>
             <br>
